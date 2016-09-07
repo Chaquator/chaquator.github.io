@@ -1,0 +1,209 @@
+<html>
+	<head>
+		<meta charset="UTF-8"></meta>
+	
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		
+		<style>
+			@keyframes across
+			{
+				0%
+				{
+					left: 0%;
+					
+					transform: translate(-100%, 0);
+				}
+				
+				100%
+				{
+					left: 100%;
+					
+					transform: translate(100%, 0);
+				}
+			}
+		
+			body
+			{
+				font-family: Arial; sans-serif;
+				
+				// cursor: none;
+				
+				height: 100%;
+				margin: 0;
+				padding: 0;
+				
+				background: transparent linear-gradient(#B58AE3, #AD8CFF, #9F8CFF, #869CF7, #95AAF0, #8EB8E6) repeat scroll 0% 0%;
+				
+				overflow: hidden;
+			}
+			
+			.bgtext
+			{
+				position: absolute;
+				
+				color: #ADFFCB;
+				
+				text-shadow: 0.08em 0.08em 0 #FFC9F1;
+				
+				// transform: translate(-100%, 0);
+				
+				overflow: hidden;
+				
+				font-size: 2.5em;
+				
+				width: 14em;
+				height: 2em;
+				
+				animation-name: across;
+				animation-play-state: running;
+				animation-iteration-count: once;
+				animation-duration: 15s;
+				animation-timing-function: linear;
+				
+				z-index: -1;
+				
+				display: block;
+			}
+			
+			.bg
+			{
+				overflow: hidden;
+			}
+		
+			.main
+			{
+				position: absolute;
+				
+				top: 50%;
+				left: 50%;
+				
+				margin: 0 -50% -50% 0;
+				
+				transform: translate(-50%, -50%);
+				
+				text-align: center;
+				
+				font-size: 5em;
+				
+				color: #ED8EDC;
+				
+				text-shadow: 0.06125em 0.06125em 0 #87BCE6;
+				
+				width: 80%;
+				
+				z-index: 1;
+			}
+		</style>
+		
+		<script>
+			var text = ["j", "u", "s", "t", " ", "c", "h", "i", "l", "l"];
+			var text2 = ["👌", "👀", " ", "c", "h", "i", "l", "l", " ", "s", "h", "i", "t"];
+			var text3 = "A E S T H I C :^)".split("");
+			var text4 = "✟✞✟✞✟✞✟✞✟✞ ／ａｅｓｔｈｅｔｉｃａｌ／ ｓｈｉｔ ／ａｅｓｔｈｅｔｉｃａｌ／ ｓＨｉｔ✟ ｔｈａｔｓ ⚔ ｓｏｍｅ ／ａｅｓｔｈｅｔｉｃａｌ／✟✟ｓｈｉｔ ｒｉｇｈｔ✟✟ｔｈｅｒｅ✟✟✟ ｒｉｇｈｔ⚔ｔｈｅｒｅ ⚔⚔ｉｆ ｉ ｄｏ ｓａｙ ｓｏ ｍｙ ｓｅｌｆ ツ ｉ ｓａｙ ｓｏ ツ ｔｈａｔｓ ｗｈａｔ　ｉｍ　ｔａｌｋｉｎｇ　ａｂｏｕｔ　ｒｉｇｈｔ　ｔｈｅｒｅ　ｒｉｇｈｔ　ｔｈｅｒｅ （ｃｈｏｒｕｓ： ᵃᵉˢᵗʰᵉᵗᶦᶜ） ｍＭＭＭＭＭＭツ ✟✟ ✟ＭＡＫＥ Ａ ＭＯＶＥ ＨＯＯＯ０Ｏ０ＯＯｏｏｏｏＯＯｏｏｏｏᵒᵒᵒᵒᵒᵒᵒᵒᵒ ✟ ✟✟ ✟ ツ ✟ ✞ ✞ ✞ ✟✟／ａｅｓｔｈｅｔｉｃ／".split("");
+			
+			var bgtext = [
+				"俺 ちんちん 大好き！",
+				"A E S T H E T I C",
+				"貴方 の 為に",
+				"うんこ",
+				"くそ",
+				"MAKE YOUR MOVE",
+				"リサフランク",
+				"僕 死に ます",
+				"ミーム",
+				"女の子 の ため に ファイトする",
+				"プチ",
+				"IT'S ALL IN YOUR HEAD",
+				"エステティック",
+				"頑張って",
+				"我々 は すべて の 敗者です",
+				"succ",
+				":^)",
+				"これ は 日本 で あります",
+				"幸せ は 苦しい"
+			];
+			
+			var index = 0;
+		
+			function shakey(parentDiv, strarr, delay)
+			{
+				for(var i = 0; i < strarr.length; i++)
+				{
+					var mem = document.createElement("span");
+					
+					mem.className = "sine-anim";
+					mem.style.animationDelay = ((i * delay) - (delay * strarr.length)) + "ms";
+					
+					if(strarr[i] == " ")
+					{
+						mem.style.margin = "0.25em";
+					}
+					else
+					{
+						mem.style.margin = "0.05em";
+					}
+					
+					mem.innerHTML = strarr[i];
+					
+					parentDiv.appendChild(mem);
+				}
+			}
+			
+			function sendText()
+			{
+				var par = document.getElementById("bg");
+			
+				var span = document.createElement("span");
+				span.className = "bgtext";
+				
+				span.style.top = (10 + (Math.random() * 80)) + "%";
+				
+				var index = Math.round(Math.random() * (bgtext.length - 1));
+				
+				span.innerHTML = bgtext[index];
+				
+				par.appendChild(span);
+				
+				window.setTimeout(function(){
+					par.removeChild(span);
+				}, 14000);
+				
+				window.setTimeout(sendText, (Math.random() * 15000) + 15000);
+			}
+			
+			function main()
+			{
+				shakey(document.getElementById("main"), text, 500);
+				
+				window.setTimeout(sendText, (Math.random() * 2000) + 3000);
+			}
+			
+			var meme = new Audio("vapourwii.ogg");
+			meme.autoloop = true;
+			//meme.volume = 0.25;
+			meme.play();
+			
+			function hideCursor()
+			{
+				document.body.style.cursor = "none";
+			}
+			
+			function unhideCursor()
+			{
+				document.body.style.cursor = "default";
+				
+				clearTimeout(hideCursor);
+				
+				setTimeout(hideCursor, 3000);
+			}
+			
+			window.addEventListener("mousemove", unhideCursor, false);
+		</script>
+	</head>
+
+	<body onload="main();">
+		<div class="main" id="main">
+		</div>
+		<div id="bg"></div>
+	</body>
+</html>

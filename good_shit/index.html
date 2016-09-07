@@ -1,0 +1,169 @@
+<html>
+	<head>
+		<meta charset="UTF-8"></meta>
+		
+		<link rel="stylesheet" type="text/css" href="csshake.css">
+		
+		<title>good shit</title>
+		
+		<style>
+			body
+			{	
+				font-size: 2em;
+				
+				font-family: sans-serif;
+				
+				overflow: hidden;
+				
+				background-color: #32506D;
+			}
+			
+			a
+			{
+				text-decoration: none;
+				border-bottom: dotted #3F3F3F;
+				font-style: italic;
+				color: #666;
+			}
+			
+			#meme
+			{
+				color: #3F3F3F;
+			
+				background-color: white;
+				
+				border-radius: 0.5em;
+			
+				position: absolute;
+				
+				width: 45em;
+				
+				padding: 1.25em;
+				
+				top: 50%;
+				left: 50%;
+				
+				margin-right: -50%;
+				margin-bottom: -50%;
+				
+				transform: translate(-50%, -50%);
+				
+				text-align: center;
+			}
+			
+			#credits
+			{
+				background-color: none;
+			
+				font-size: 0.5em;
+			
+				color: #467099;
+			
+				padding: 0;
+				margin: 0;
+				trasnform: none;
+				
+				
+				width: auto;
+				
+				position: absolute;
+				bottom: 0.25em;
+				left: 0.25em;
+			}
+			
+			#credits > a
+			{
+				font-size: inherit;
+			
+				color: #588CBF;
+				
+				text-shadow: 0 0 0.0125em #5E96CC;
+			}
+			
+			h1
+			{
+				color: #3F3F3F;
+			
+				margin: 0 0 0.25em 0;
+				
+				text-align: left;
+				
+				font-size: 2.25em;
+			}
+		</style>
+		
+		<script>
+			function shakey(parentDiv, strarr)
+			{
+				for(var i = 0; i < strarr.length; i++)
+				{
+					var mem = document.createElement("span");
+					
+					mem.className = "shake shake-constant";
+					mem.style.animationDuration = "2s";
+					mem.style.animationDelay = (i * 25) + "ms";
+					
+					if(strarr[i] == " ")
+					{
+						mem.style.margin = "0.25em";
+					}
+					
+					if(i == 231)
+					{
+						var a = document.createElement("a");
+						a.href = "https://www.youtube.com/watch?v=shCYA2J-De8&t=26";
+						a.target = "_blank";
+						
+						parentDiv.appendChild(a);
+					}
+					
+					mem.innerHTML = strarr[i];
+					
+					if(i > 230 && i < 234)
+					{
+						a.appendChild(mem);
+						
+						mem.className = "shake shake-constant shake-hard";
+						mem.style.animationDuration = "250ms";
+					}
+					else
+					{
+						parentDiv.appendChild(mem);
+					}
+				}
+			}
+			
+			function main()
+			{
+				var arr = ["👌", "👀", "👌", "👀", "👌", "👀", "👌", "👀", "👌", "👀", " ", "g", "o", "o", "d", " ", "s", "h", "i", "t", " ", "g", "o", "౦", "d", " ", "s", "H", "i", "t", "👌", " ", "t", "h", "a", "t", "s", " ", "✔", " ", "s", "o", "m", "e", " ", "g", "o", "o", "d", "👌", "👌", "s", "h", "i", "t", " ", "r", "i", "g", "h", "t", "👌", "👌", "t", "h", "👌", " ", "e", "r", "e", "👌", "👌", "👌", " ", "r", "i", "g", "h", "t", "✔", "t", "h", "e", "r", "e", " ", "✔", "✔", "i", "f", " ", "i", " ", "d", "o", " ", "ƽ", "a", "y", " ", "s", "o", " ", "m", "y", " ", "s", "e", "l", "f", " ", "💯", " ", "i", " ", "s", "a", "y", " ", "s", "o", " ", "💯", " ", "t", "h", "a", "t", "s", " ", "w", "h", "a", "t", " ", "i", "m", " ", "t", "a", "l", "k", "i", "n", "g", " ", "a", "b", "o", "u", "t", " ", "r", "i", "g", "h", "t", " ", "t", "h", "e", "r", "e", " ", "r", "i", "g", "h", "t", " ", "t", "h", "e", "r", "e", " ", "(", "c", "h", "o", "r", "u", "s", ":", " ", "ʳ", "ᶦ", "ᵍ", "ʰ", "ᵗ", " ", "ᵗ", "ʰ", "ᵉ", "ʳ", "ᵉ", ")", " ", "m", "M", "M", "M", "M", "Ꮇ", "М", "💯", " ", "👌", "👌", " ", "👌", "Н", "O", "0", "О", "ଠ", "Ｏ", "O", "O", "Ｏ", "O", "О", "ଠ", "ଠ", "O", "o", "o", "o", "ᵒ", "ᵒ", "ᵒ", "ᵒ", "ᵒ", "ᵒ", "ᵒ", "ᵒ", "ᵒ", "👌", " ", "👌", "👌", " ", "👌", " ", "💯", " ", "👌", " ", "👀", " ", "👀", " ", "👀", " ", "👌", "👌", "G", "o", "o", "d", " ", "s", "h", "i", "t"];
+				
+				var div = document.getElementById("meme");
+				
+				shakey(document.getElementById("title"), ["s","u","m"," ","g","o","o","o","d"," ","s","h","i","t"]);
+				
+				shakey(div, arr);
+				
+				var meme = new Audio("wii.ogg");
+				meme.autoloop = true;
+				meme.volume = 0.06125;
+				meme.play();
+				
+				/*
+				window.setInterval(function()
+				{
+					div.style.fontSize = "6em";
+				}, 500);
+				*/
+			}
+		</script>
+	</head>
+
+	<body onload="main();">
+		<div id="meme">
+			<h1 id="title"></h1>
+		</div>
+		<div id="credits">
+			by <a href="https://twitter.com/chaquator" target="_blank">chaquator</a>
+		</div>
+	</body>
+</html>

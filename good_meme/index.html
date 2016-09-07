@@ -1,0 +1,408 @@
+<!-- My excuse for such a terribly written page (in terms of organization and such) is that I purposely obfuscated my methods for the spoopy factor :^) -->
+
+<html>
+	<head>
+		<meta charset="UTF-8"></meta>
+		
+		<link rel="stylesheet" type="text/css" href="csshake.css"></link>
+		
+		<title>nice meme friendo!</title>
+	
+		<style>
+			@keyframes grow
+			{
+				0%
+				{
+					font-size: 1.5em;
+					background-color: #222;
+				}
+				
+				100%
+				{
+					font-size: 5em;
+					background-color: #522626;
+				}
+			}
+			
+			@keyframes grow-text
+			{
+				0%
+				{
+					width: 100%;
+					height: 100%;
+					
+					transform: translate(0, 0);
+				}
+				
+				100%
+				{
+					width: 200%;
+					height: 200%;
+					
+					transform: translate(-50%, -50%);
+				}
+			}
+			
+			@keyframes fade-in
+			{
+				0%
+				{
+					opacity: 0;
+				}
+				
+				100%
+				{
+					opacity: 1;
+				}
+			}
+		
+			body, 
+			span
+			{
+				margin: 0;
+				padding: 0;
+				
+				font-size: 1.5em;
+				
+				color: white;
+				background-color: #222;
+				
+				background-size: cover;
+				background-repeat: no;
+			}
+			
+			#text
+			{
+				font-family: Impact;
+			}
+		
+			#div
+			{
+				text-align: center;
+				
+				position: absolute;
+				
+				top: 50%;
+				left: 50%;
+				
+				margin: 0;
+				margin-right: -50%;
+				margin-bottom: -50%;
+				
+				transform: translate(-50%, -50%)
+			}
+			
+			.grow, 
+			body
+			{
+				font-size: 1.5em;
+			
+				animation-name: grow;
+				animation-delay: 2s;
+				animation-duration: 3s;
+				animation-iteration-count: 1;
+				animation-play-state: running;
+				animation-fill-mode: forwards;
+				animation-timing-function: ease-in-out;
+			}
+			
+			.face
+			{
+				width: 100%;
+				height: 100%;
+			
+				object-position: 50% 50%;
+				
+				animation-name: grow-text;
+				animation-delay: 3s;
+				animation-duration: 5s;
+				animation-iteration-count: 1;
+				animation-play-state: running;
+				animation-fill-mode: forwards;
+				animation-timing-function: ease-in-out;
+			}
+			
+			.face-div
+			{
+				width: 100%;
+				height: 100%;
+				
+				overflow: hidden;
+			}
+			
+			span
+			{
+				background-color: inherit;
+			}
+			
+			.fade
+			{
+				opacity: 0;
+				
+				font-size: 0.65em;
+				
+				margin: 0.25em;
+				padding: 0;
+			
+				position: absolute;
+				
+				bottom: 0;
+				left: 0;
+			
+				animation-name: fade-in;
+				animation-duration: 2s;
+				animation-delay: 500ms;
+				animation-iteration-count: 1;
+				animation-play-state: running;
+				animation-fill-mode: forwards;
+				animation-timing-function: ease-in-out;
+				
+				font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+			}
+			
+			.fade > p
+			{
+				margin: 0.25em;
+			}
+			
+			.fade > p > a
+			{
+				text-decoration: none;
+				color: #95CADB;
+				text-shadow: 0em 0em 0.125em #95CADB;
+			}
+		</style>
+		
+		<script>
+		var i = -2;
+		var x = 0;
+		var text = [
+			["f", "u", "c", "k", "", "y", "o", "u"], 
+			["g", "o", "", "t", "o", "", "h", "e", "l", "l"]
+		];
+		
+		function main()
+		{
+			setTimeout(function()
+			{
+				iv1 = setInterval(phase1, 200);
+				setTimeout(phase2, 1250);
+			}, 2250);
+			
+			new Image(0, 0).src = "ok.gif";
+			new Image(0, 0).src = "glitch.gif";
+			new Image(0, 0).src = "owari.gif";
+			new Image(0, 0).src = "jk.gif";
+		}
+		
+		function replaceClass(orig, repl)
+		{
+			var temp = document.getElementById("text").childNodes;
+			for(var i = 0; i < temp.length; i++)
+			{
+				if(temp[i].className == orig)
+				{
+					temp[i].className = repl;
+				}
+			}
+			
+			var temp = document.getElementById("grow").childNodes;
+			for(var i = 0; i < temp.length; i++)
+			{
+				if(temp[i].className == orig)
+				{
+					temp[i].className = repl;
+				}
+			}
+		}
+		
+		function type(ar, div)
+		{
+			div.innerHTML = "";
+		
+			for(var y = 0; y < x; y++)
+			{
+				var tempSpan = document.createElement("span");
+				tempSpan.innerHTML = ar[y];
+				tempSpan.className = x > 6 ? "shake shake-constant" : "";
+				
+				tempSpan.style.margin = y >= 6 ? "0.2em" : "0.125em";
+				tempSpan.style.animationDelay = (y * 5).toString() + "ms";
+				tempSpan.style.animationDuration = "125ms";
+				tempSpan.style.animationIterationCount = "1";
+				tempSpan.style.fontSize = y >= 6 ? "1.6em" : "1.5em";
+				tempSpan.style.fontFamily = "Arial, Helvetica Neue, Helvetica, sans-serif";
+				
+				div.appendChild(tempSpan);
+			}
+			
+			x += x < ar.length ? 1 : 0;
+			
+			setTimeout(function()
+			{
+				type(text[1], div)
+			}, (x > 7) ? 500 : 250);
+		}
+		
+		function phase1()
+		{
+			i++;
+			
+			switch(i)
+			{
+				case -1:
+				{
+					replaceClass("simple-text", "shake shake-constant shake-rotate");
+				}
+				break;
+			
+				case 0:
+				{
+					replaceClass("shake shake-constant shake-rotate", "shake shake-constant shake-little");
+				}
+				break;
+				
+				case 1:
+				{
+					replaceClass("shake shake-constant shake-little", "shake shake-constant");
+				}
+				break;
+				
+				case 2:
+				{
+					replaceClass("shake shake-constant", "shake shake-constant shake-hard");
+				}
+				break;
+				
+				case 3:
+				{
+					replaceClass("shake shake-constant shake-hard", "shake shake-constant shake-crazy");
+				}
+				break;
+			}
+			
+			
+		}
+		
+		function phase2()
+		{
+			clearInterval(iv1);
+			
+			setTimeout(phase3, 3300);
+			
+			var div = document.getElementById("div");
+			div.innerHTML = "";
+			
+			type(text[1], div);
+			
+			document.body.style.animation = "none";
+			document.body.style.backgroundColor = "black";
+			
+			document.title = "ｆｕ̨ｃｋ ͟ｙｏｕ͜，ｙｏｕ ́ｐ̵ｉｅ̛ｃ̷ｅ́ ｏｆ ̵ｓ͝ｈｉｔ̴̷";
+			
+			// load audio before
+			audio = new Audio();
+			audio.src = "audio.mp3";
+			audio.load();
+		}
+		
+		function phase3()
+		{
+			audio.play();
+		
+			//clearInterval(thing);
+			
+			document.getElementById("div").remove();
+		
+			var div = document.createElement("div");
+			div.id = "face";
+			div.className = "face-div";
+		
+			var img = new Image();
+			img.src = "ok.gif";
+			img.className = "face";
+			
+			div.appendChild(img);
+			document.body.appendChild(div);
+			
+			setTimeout(phase4, 5000);
+			
+			/*
+			window.onbeforeunload = function()
+			{
+				return " ";
+			};
+			
+			window.onblur = function()
+			{
+				for(var i = 0; i < 5; i++)
+				{
+					alert(" ");
+				}
+			}
+			*/
+		}
+
+		function phase4()
+		{
+			document.getElementById("face").remove();
+		
+			document.body.style.background = "url(glitch.gif)";
+			document.body.style.backgroundSize = "cover";
+			document.body.style.backgroundRepeat = "no-repeat";
+			document.body.style.backgroundColor = "black";
+			
+			setTimeout(phase5, 5000);
+		}
+		
+		function phase5()
+		{
+			document.body.style.background = "url(owari.gif)";
+			document.body.style.backgroundSize = "cover";
+			document.body.style.backgroundRepeat = "no-repeat";
+			document.body.style.backgroundColor = "black";
+			
+			setTimeout(phase6, 2000)
+		}
+		
+		function phase6()
+		{
+			document.body.style.background = "url(jk.gif)";
+			document.body.style.backgroundSize = "cover";
+			document.body.style.backgroundRepeat = "no-repeat";
+			document.body.style.backgroundColor = "black";
+		
+			audio.addEventListener("ended", end, false);
+		}
+		
+		function end()
+		{
+			document.title = "We hope you enjoyed!";
+		
+			document.body.style.background = "none";
+			document.body.style.backgroundColor = "black";
+			
+			var div = document.createElement("div");
+			div.className = "fade";
+			div.innerHTML = "<p>\"good meme\"</p><p>by chaquator and cyber police</p><p>twitters: <a target=\"_blank\" href=\"https://twitter.com/chaquator\">@chaquator</a> and <a target=\"_blank\" href=\"https://twitter.com/Jordan657945\">@Jordan657945</a></p>";
+			
+			document.body.appendChild(div);
+		}
+		
+		</script>
+	</head>
+	
+	<body onload="main();">
+		<div id="div">
+			<p class="grow" id="grow" style="font-family: Arial, Helvetica Neue, Helvetica, sans-serif;"><span class="simple-text" style="animation-delay: 1ms">:</span><span class="simple-text" style="animation-delay: 5ms">)</span></p>
+			<p id="text" style="font-family: Impact"><span class="simple-text" style="animation-delay: 10ms">g</span><span class="simple-text" style="animation-delay: 15ms">o</span><span class="simple-text" style="animation-delay: 20ms">o</span><span class="simple-text" style="animation-delay: 25ms">d</span>
+			<span class="simple-text" style="animation-delay: 30ms">m</span><span class="simple-text" style="animation-delay: 35ms">e</span><span class="simple-text" style="animation-delay: 40ms">m</span><span class="simple-text" style="animation-delay: 45ms">e</span><span class="simple-text" style="animation-delay: 50ms">!</span></p>
+		</div>
+		<div id="preload" style="position:absolute; top:0; left:0; display:none">
+			<img src="glitch.gif" width=1 height=1></img>
+			<img src="jk.gif" width=1 height=1></img>
+			<img src="ok.gif" width=1 height=1></img>
+			<img src="owari.gif" width=1 height=1></img>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,20 @@
+/* set two -- sepia */
+*
+{
+	font-family: "Myriad", "Open Sans", "Arial", sans-serif;
+	
+	background-color: #282828;
+	
+	color: #D8D8D8;
+	text-shadow: 0.05em 0.05em 0.125em #111;
+}
+
+a:visited
+{
+	color: #92299f;
+}
+
+a:link
+{
+	color: #80BFFF;
+}

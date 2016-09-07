@@ -1,0 +1,97 @@
+<html>
+	<head>
+		<meta charset="UTF-8"></meta>
+		
+		<title>Recommended Anime</title>
+		
+		<link rel="icon" href="favicon.ico"/>
+		
+		<link rel="stylesheet" type="text/css" href="csshake.css">
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		
+		<script type="text/javascript">
+			function reloadImage(imgName)
+			{
+				var tImg = document.getElementById(imgName);
+				new Image().src = tImg.src;
+			}
+			
+			function goodShit()
+			{
+				// good shit
+				var gsc = document.getElementsByClassName("good_shit");
+				var gssa = ["👌", "👀", "👌", "👀", "👌", "👀", "👌", "👀", "👌", "👀", " ", "g", "o", "o", "d", " ", "s", "h", "i", "t", " ", "g", "o", "౦", "d", " ", "s", "H", "i", "t", "👌"];
+				for(var i = 0; i < gsc.length; i++)
+				{
+					var str = gsc[i].innerHTML;
+					if(str != "")
+					{
+						gsc[i].innerHTML = ""
+						shakey(gsc[i], str);
+					}
+					else
+					{
+						shakey(gsc[i], gssa);
+					}
+				}
+			}
+			
+			function shakey(parentDiv, strarr)
+			{
+				for(var i = 0; i < strarr.length; i++)
+				{
+					var mem = document.createElement("span");
+					var del = 50; // delay in ms
+					
+					mem.className = "shake shake-constant shake-little gold";
+					mem.style.animationDuration = "3s";
+					mem.style.animationDelay = ((i * del) - (strarr.length * del)) + "ms";
+					
+					if(strarr[i] == " ")
+					{
+						mem.style.margin = "0.25em";
+					}
+					
+					if(i == 231)
+					{
+						var a = document.createElement("a");
+						a.href = "https://www.youtube.com/watch?v=shCYA2J-De8&t=26";
+						a.target = "_blank";
+						
+						parentDiv.appendChild(a);
+					}
+					
+					mem.innerHTML = strarr[i];
+					
+					if(i > 230 && i < 234)
+					{
+						a.appendChild(mem);
+						
+						mem.className = "shake shake-constant shake-hard";
+						mem.style.animationDuration = "250ms";
+					}
+					else
+					{
+						parentDiv.appendChild(mem);
+					}
+				}
+			}
+			
+			function main()
+			{
+				document.getElementById("intro").children[1].children[0].src = "intro_img/" + (1 + Math.floor(Math.random() * 10)) + ".jpg";
+				goodShit();
+			}
+		</script>
+	</head>
+	
+	<body onload="main()">
+		<h1 id="title-header" class="shake shake-constant shake-slow">Recommended Anime</h1>
+		<div id='endDiv' style='text-align: center; margin-bottom: 0px;'>
+			<h2>end of page</h2>
+			<p>
+				<span class='pls button' onclick='document.getElementById(&quot;title-header&quot;).scrollIntoView({block: &quot;end&quot;, behavior: &quot;smooth&quot;});'>go to top</span>
+			</p>
+		</div>
+	</body>
+</html>
