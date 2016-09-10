@@ -14,12 +14,11 @@ module.exports.sections =
         "intro_img/1.jpg",
         "",
         [
-            "Welcome to my personal list of recommended anime!",
-            "This list will server as my resource to send to others when they ask me what anime I would recommend to them. This list is purely in alphabetical order, so it doesn't represent how much I like a certain series relative to the others nearby it.",
-            "My taste is more centered towards comical and funny things, but I always enjoy drama and action, especially when it's well-mixed with comedy. If you feel that you'd like to give my taste a try, go ahead and keep track of this page so you can check on it later (I most likely will update this list when I watch things I would recommend to others). If that's not your taste, however, feel free to click away.",
-            "Know this: for most series that make it on this list, I have watched them at least twice for the sake of having a good opinion and making a good recommendation. The text accompanying each entry is not a comprehensive review; it mainly highlights the underlying aesthetics I enjoyed while watching the show for. It's for you to gauge whether or not you would enjoy the show.<br>Rest assured, thus, that none of these shows will be subpar.",
-            "My list is seperated into 3 ranks. These ranks group shows based on the uniqueness and how much it <i>feels</i> like a cardinal anime. What a \"cardinal anime\" is, I honestly cannot explain, but, as you watch more anime, you should develop an understanding as to what cardinal anime would be.<br><span class=\"gold\">Rank S</span> (for Super) is the rank where the series is unique and amazing on an exceptional level, where it feels completely unlike common anime. If you're looking for something amazing, something that elevates the medium unlike no other class of anime, sample from this rank.<br><span class=\"gold\">Rank A</span> contains shows that are unqiue to a high level, but still reflect some level of being like common anime. These shows elevate the medium pretty well while sticking closer to how anime normally is. This is the rank to pick from if you're looking for something to help you get into anime.<br><span class=\"gold\">Rank B</span> consists of the shows that, while being from \"okay\" to <span class=\"good_shit\">\"pretty good\"</span>, feel a very big bunch like regular anime. Depending on how your taste goes, these are the shows that may classify to you as \"subpar\". You should probably wait until you're at least a little versed with anime to start watching from this rank.<br>This seperation is only on a matter of how much the show sticks to common anime. It's not too much based on how much I liked the show, because I enjoyed all the shows in this list.",
-            "Click on an entry's image to open the repsective anime's MAL (MyAnimeList) page.<br>Click on the entry's header to reload the image.<br>Click on the chain-link next to an entry's header to change the url to one that scrolls to the clicked entry (<a href=\"http://www.w3.org/html/wg/drafts/html/master/browsers.html#scroll-to-fragid\" target=\"_blank\">navigting to a fragment identifier</a>).",
+            "Welcome to my personal list of recommended anime!<br>This list will serve as my resource to send to others in the event that they ask me for an anime to recommend.",
+            "My taste is centered more towards comical and funny things, but I am perfectly fine with drama and action, but only really when it's well-mixed with comedy. If you feel that you'd like to give my taste a try, go ahead and keep track of this page so you can check on it later; I do update this page with any new recommendation articles I make. If that's not your taste, however, feel free to click away.",
+            "For every series that makes it on this list, I have watched them at least twice for the sake of having a good opinion and making a good recommendation. Rest assured that none of these shows will be subpar; I wouldn't recommend them otherwise.<br>The text accompanying each entry is not a comprehensive review; it mainly highlights the underlying aesthetics I enjoyed while watching the show for. It's for you to gauge whether or not you would enjoy the series.",
+            "My list is seperated into 3 ranks. These ranks group shows based on the uniqueness and how much it elevates anime as a medium.<br><span class=\"gold\">Rank S</span> (for Super) is the rank where the series is unique and amazing on an exceptional level, where it feels completely unlike common anime. If you're looking for something amazing, something that elevates the medium unlike no other class of anime, sample from this rank.<br><span class=\"gold\">Rank A</span> contains shows that are unqiue to a high level, and are still amazing, but they still reflect some level of being like common anime. These shows elevate the medium pretty well while sticking closer to how anime normally is. This is the rank to pick from if you're looking for something to help you get into anime.<br><span class=\"gold\">Rank B</span> consists of the shows that, while being from \"okay\" to <span class=\"good_shit\">\"pretty good\"</span>, reflect many common characteristics of regular anime.<br>",
+            "Click on an entry's image to open the repsective anime's MAL (MyAnimeList) page.<br>Click on the chain-link next to an entry's header to change the url to one that scrolls to the clicked entry (<a href=\"http://www.w3.org/html/wg/drafts/html/master/browsers.html#scroll-to-fragid\" target=\"_blank\">navigting to a fragment identifier</a>).",
             "Without further ado, I hope you enjoy the anime I present in this list."
         ]
     ],
@@ -29,22 +28,18 @@ module.exports.sections =
         "",
         "",
         [
-            "I care a big whole bunch about anime, and I honestly care more about getting people into anime (and easing them into tolerating its cardinal gimmicks) than about perpetuating an elitist sort of ideal.<br>That's why I've seperated my list into these sections: to cater to those who are new to anime and those who have experience.",
-            "If anything, this section contains the better of my favorite anime. I'd honestly like to show people the best stuff than to show them just about anything.<br>If you have no experience with anime but want an absolute killer of a show, refer to this section here."
+            "Anime comes in all shapes and sizes. And in this section, each anime is shaped like a golden snowflake&mdash;unique and amazing beyond comprehension."
         ]
     ],
-    
-    [
-        "Golden Boy",
-        "golden_boy.webm",
-        "http://myanimelist.net/anime/268/",
-        [
-            "Kintaro Oe is the <span class='good_shit'>Golden Boy</span>. Physically and mentally healthy, this young lad strolls around Japan to learn about life.<br>But enough about premises; a premise alone does not make a show great, especially not as great as this.<br><i>Golden Boy</i> is a great show not because of its plot or premise, but for the more important things (to me, with this show in mind) such as its humor and animation. The jokes are all visual, and the faces, the timing, and the voice actor's work, all do well to make each joke funny. The animation on its own is expressive, something unlike anything you'd often see today.",
-            "As great as this show is, mind the fact that it's an adult show. With episodes 1, 4, and 5 being the most sexual, each episode's plot revolves around Kintaro ending attracting a lady at the place he's working at.<br>On the note of warnings, I'd prefer going with the Japanese dub of this show. As amazing a job that Dough Smith does when performing Kintaro, all of the other voice actors (particularly the females) don't really express the same personality as what I feel the character's were intended to be portrayed as. (Feel free to call me a weeaboo for this next one, but...) The American voices don't have the same subtleties as the Japanese voices that would communicate a Japanese maiden or a devious, two-faced high school girl.",
-            "<i>Golden Boy</i> is a 6-episode OVA series. Licensed by Discotek Media for North America in 2012, <a target='_blank' href='http://www.discotekmedia.com/golden_boy.htm'>this is the place from which you'd purchase the DVD</a>.",
-            "To me, this show ranks an <span class=\"gold\">S</span>. It's great&mdash;no, wait, it's pretty amazing, deserving of being among the S rank&mdash;but there's better up here."
-        ]
-    ],
+	
+	[
+		"Nothing!",
+		"",
+		"",
+		[
+			"As I said, this page is a WiP.<br>I'll get some Miyazaki films up here soon enough."
+		]
+	],
     
     /*
     [
@@ -74,7 +69,7 @@ module.exports.sections =
         "",
         "",
         [
-            "In here are going to be shows that, while they are exceptional, reflect common anime by a substantial amount."
+            "Do you have a guilty pleasure that you want to get people into but you don't want for them to have to wade through the filth you're already used to; and so you curate the crème de la crème of your interest for them to enjoy? That's basically what this section is for me and anime.<br>In here are shows that, while they are exceptional, reflect common anime by a substantial amount."
         ]
     ],
     
@@ -83,7 +78,7 @@ module.exports.sections =
         "azumanga_daioh.webm",
         "http://myanimelist.net/anime/66",
         [
-            "You know how a large amount of anime take place in high school, and how they're a comedy and/or slice-of-life show? Well this is where it was good. This is <i>Azumanga Daioh</i>&mdash;a show from a time where high school comedy and slice-of-life was done well.<br><i>Azumanga Daioh</i> is one of those shows to watch if you want to get to know a cast over a time-frame, where you witness the funny happenings, and come to enjoy their personalities&mdash;and the humor that comes from it. And the humor... lord almighty it is some <span class='good_shit'></span>; the things that the producers do&mdash;like the bits where they pause really long for a joke, or when they animate movements really slowly to eccentuate just how bizzare something is, and not to mention the way the sound design&mdash;always helps the jokes' deliveries. A show like this is an amazing comedy to me. This show isn't always a straight-up comedy, either; it is also sometimes more like a laidback slice-of-life. Vacations at Chiyo's summer home, their yearly school festivals, study sessions at Chiyo's house, all of that works together to deliver that social and peaceful highschool experience I'm sure you and I both never had. Having a continuity where you get to know the characters over times does well to make the ending great. It does so well, in-fact, that I was a little sad to have finished this series.",
+            "You know how a large amount of anime take place in high school, and how they're a comedy and/or slice-of-life show? Well this is where it was good. This is <i>Azumanga Daioh</i>&mdash;a show from a time where high school comedy and slice-of-life was done well.<br><i>Azumanga Daioh</i> is one of those shows to watch if you want to get to know a cast over a time-frame, witness the funny happenings, and come to enjoy their presence. You get to sit back and observe <i>them</i>: their antics, their personalities, their interactions; and you get to sit back and take in the humor that comes from observing them. And the humor... lord almighty it is some <span class='good_shit'></span>; the things that the producers do&mdash;like the bits where they pause really long for a joke, or when they animate movements really slowly to eccentuate just how bizzare something is, and not to mention the sound design to complement it all&mdash;always helps the jokes' deliveries. A show like this is an amazing comedy to me.<br>And this show isn't always a straight-up comedy, either; it is also sometimes more like a laidback slice-of-life. Vacations at Chiyo's summer home, their yearly school festivals, study sessions at Chiyo's house, all of that works together to deliver that social and yet peaceful highschool experience I'm sure you and I both never had. Having a continuity where you get to know the characters over times does well to make the ending great. It does so well, in-fact, that I was a little sad to have finished this series.",
 			"This show also has an amazing <a href='slates/azumanga_daioh_op.mp4' target='_blank'>opening theme</a> and <a href='slates/azumanga_daioh_ed.mp4' target='_blank'>ending theme</a>.<br>Also, did you know that this show is the <a href='clips/azumanga_daioh_mai_waifu.mp4' target='_blank'>origin of the term \"waifu\"</a>?",
             "<i>Azumanga Daioh</i> is available <a target='_blank' href='http://www.sentaifilmworks.com/shows/azumanga-daioh'>through Sentai Filmworks</a>.",
             "From me this show earns an <span class='gold'>A++</span>. It is one of the best&mdash;if not <i>the</i> best&mdash;comedy/slice-of-life shows I have seen. To me, it places even higher than <i><a href='#nichijou'>Nichijou</a></i>."
@@ -154,6 +149,18 @@ module.exports.sections =
         ]
     ],
     */
+    
+    [
+        "Golden Boy",
+        "golden_boy.webm",
+        "http://myanimelist.net/anime/268/",
+        [
+            "Kintaro Oe is the <span class='good_shit'>Golden Boy</span>. Physically and mentally healthy, this young lad strolls around Japan to learn about life.<br>But enough about premises; a premise alone does not make a show great, especially not as great as this.<br><i>Golden Boy</i> is a great show not because of its plot or premise, but for the more important things (to me, with this show in mind) such as its humor and animation. The jokes are all visual, and the faces, the timing, and the voice actor's work, all do well to make each joke funny. The animation on its own is expressive, something unlike anything you'd often see today.",
+            "As great as this show is, mind the fact that it's an adult show. With episodes 1, 4, and 5 being the most sexual, each episode's plot revolves around Kintaro ending attracting a lady at the place he's working at.<br>On the note of warnings, I'd prefer going with the Japanese dub of this show. As amazing a job that Dough Smith does when performing Kintaro, all of the other voice actors (particularly the females) don't really express the same personality as what I feel the character's were intended to be portrayed as. (Feel free to call me a weeaboo for this next one, but...) The American voices don't have the same subtleties as the Japanese voices that would communicate a Japanese maiden or a devious, two-faced high school girl.",
+            "<i>Golden Boy</i> is a 6-episode OVA series. Licensed by Discotek Media for North America in 2012, <a target='_blank' href='http://www.discotekmedia.com/golden_boy.htm'>this is the place from which you'd purchase the DVD</a>.",
+            "To me, this show ranks an <span class=\"gold\">A+</span>. To be honest, I would give this show an <span class='gold'>S</span>, but the ecchi kind of places it down here."
+        ]
+    ],
     
     [
         "Kill Me Baby",
@@ -300,13 +307,13 @@ module.exports.sections =
             "If you haven't watched much anime before, and you don't understand the general environment, then it's perhaps better that you don't choose any of these anime down here as your first to watch."
         ]
     ],
-    
+	
     [
         "GJ-bu",
         "gjbu.webm",
         "http://myanimelist.net/anime/14811/",
         [
-            "<i>GJ-bu</i> is a harem anime sans the ecchi. The main dude, Kyolo, is the only male character to appear in this show, while the rest are females. Despite the ways Kyolo is sometimes playfully abused and belittled by the girls, each of the other characters' actions (except for one) all reflect the fact that they actually like Kyolo. The bottom line is that this show appeals to a male's sense of being appreciated. The point of the show is for you (as a male) to \"fall in love\" with the other characters, and fantasize about being in Kyolo's position.",
+            "<i>GJ-bu</i> is a harem anime sans the ecchi. Kyolo, the main character, is the only male character to appear in this show, where the rest are females. Despite the ways Kyolo is sometimes playfully abused and belittled by the girls, each of the other characters' actions all reflect the fact that they actually like Kyolo. The bottom line is that this show appeals to a male's sense of being appreciated. The point of the show is for the viewer (as long as they're sexually oriented towards females) to \"fall in love\" with the other characters, and fantasize about being in Kyolo's position.",
 			"Currently, <i>GJ-bu</i> is not available for purchase, and can only be <a target='_blank' href='http://www.crunchyroll.com/gj-club'>stramed through crunchyroll</a>.",
             "You could call this my most shameless recommendation...<br>I give <i>GJ-bu</i> a <span class='gold'>B</span>. The show very much reflects common anime (being a slice-of-life, taking place in high school, appealing this way to the viewer) but I honestly enjoy my sense of being appreciated being appealed to (take from that what you will in regards to my personality). If you're up for being pandered to, take this show on."
         ]
@@ -469,8 +476,8 @@ module.exports.sections =
         "yuyushiki.webm",
         "http://myanimelist.net/anime/15911",
         [
-			"As a man, don't you ever kind of wish you were a girl and that you could act on the feminine desires that you repress? Yeah, me too, and that's why I watched <i>Yuyushiki</i>, and it's why I recommend it today: to give those dudes trapped within their social restrictions that have arisen from biological sex a show to enjoy.<br>The main appeal of <i>Yuyushiki</i> is that it's a comedic show starring a cast of cute, lightly flirtatious, and sometimes affectionate girls. Such elements being merely present, though, would not make this show great. (Otherwise, it'd be as flat and boring as Kirino Mosaic, a show that lacks any good comedy while also checking off that it has \"cute\" girls.) From making sweet puns, to the way Yukari acts so airheaded, down to fast-pacedness of the antics that Yuzuko pulls off (sometimes in tandem with Yukari), the comedy in this show absolutely sells it as something I'd recommend. This show may not be the best at conveying a nice day-to-day life or giving off a seasonal vibe like other slice-of-life shows, and I'm not much a fan of the way the show gets close to delivering fanservice in a sexual fashion (not underhandedly but still not tongue-in-cheek) using the girls' bodies, but each episode leaves me looking forward to continue watching it the next instance that I have free time, and it leaves me a little down to be finishing it again for this recommendation. It's a pretty good show.",
-            "Yuyushiki is available through <a href='https://shop.sentaifilmworks.com/products/yuyushiki-complete-collection'>Sentai Filmworks</a> and streamable through <a href='http://www.crunchyroll.com/yuyushiki'>Crunchyroll</a>.",
+			"As a man, don't you ever kind of wish you were a girl and that you could act on the feminine desires that you repress? Yeah, me too. That's why I watched <i>Yuyushiki</i>, and it's also why I recommend it today: to give those dudes trapped within their social restrictions due to biological sex a show to enjoy.<br><i>Yuyushiki</i> is a comedic show starring a cast of cute, affectionate, and lightly flirtatious girls. These elements being <i>merely present</i>, though, wouldn't make a show great. Take, for example, the show \"Kirino Mosaic\", where all of these criteria are met, but the show itself is lackluster and boring. No, no no. For a show like this, it's the comedy that wins it. From making sweet puns, to the way Yukari acts so airheaded, down to fast-pacedness of the antics that Yuzuko pulls off (sometimes in tandem with Yukari), the comedy in this show absolutely sells it as something I'd recommend. This show may not be the best at conveying a nice day-to-day life or giving off a seasonal vibe like other slice-of-life shows, and I'm not much a fan of the way the show gets close to delivering fanservice in a sexual fashion (not underhandedly but still not tongue-in-cheek) using the girls' bodies, but each episode left me looking forward to watching the next, and it leaves me a little down to be finishing it again for this recommendation. It's a pretty good show.",
+            "Yuyushiki is available through <a target='_blank' href='https://shop.sentaifilmworks.com/products/yuyushiki-complete-collection'>Sentai Filmworks</a> and streamable through <a target='_blank' href='http://www.crunchyroll.com/yuyushiki'>Crunchyroll</a>.",
 			"Such a show does not elevate anime as a medium, but it kills time and gets me laughing. To me, it's a good <span class='gold'>B++</span>"
         ]
     ],
