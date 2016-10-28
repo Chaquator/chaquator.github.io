@@ -101,7 +101,12 @@ p
 a
 {
     color: #80BFFF;
-    text-shadow: 0em 0em 0.125em #80BFFF;
+    text-shadow: none;
+}
+
+a:hover
+{
+	text-shadow: 0em 0em 0.125em #80BFFF;
 }
 
 a.link

@@ -31,7 +31,7 @@ for(var i = 0; i < sections.length; i++)
 	if(sections[i][0] != "")
 	{
 		var sectionName = sections[i][0];
-		sectionId = sectionName.toLowerCase().replace(/ /g, "_").replace(/(\(|\)|\:|<|>|!)/g, "");
+		sectionId = sectionName.toLowerCase().replace(/<([^>]+?)([^>]*?)>(.*?)<\/\1>/ig, "").replace(/(\(|\)|\:|<|>|!|\s\s+|-)/g, "").replace(/ /g, "_");
 		
 		var tImg = html("img", "src='link-icon.svg' style='width:1em'", "");
 		var tA = html("a", "class='link' href='#" + sectionId + "'", tImg);

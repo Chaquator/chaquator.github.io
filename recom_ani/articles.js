@@ -78,7 +78,7 @@ module.exports.sections =
         "azumanga_daioh.webm",
         "http://myanimelist.net/anime/66",
         [
-            "You know how a large amount of anime take place in high school, and how they're a comedy and/or slice-of-life show? Well this is where it was good. This is <i>Azumanga Daioh</i>&mdash;a show from a time where high school comedy and slice-of-life was done well.<br><i>Azumanga Daioh</i> is one of those shows to watch if you want to get to know a cast over a time-frame, witness the funny happenings, and come to enjoy their presence. You get to sit back and observe <i>them</i>: their antics, their personalities, their interactions; and you get to sit back and take in the humor that comes from observing them. And the humor... lord almighty it is some <span class='good_shit'></span>; the things that the producers do&mdash;like the bits where they pause really long for a joke, or when they animate movements really slowly to eccentuate just how bizzare something is, and not to mention the sound design to complement it all&mdash;always helps the jokes' deliveries. A show like this is an amazing comedy to me.<br>And this show isn't always a straight-up comedy, either; it is also sometimes more like a laidback slice-of-life. Vacations at Chiyo's summer home, their yearly school festivals, study sessions at Chiyo's house, all of that works together to deliver that social and yet peaceful highschool experience I'm sure you and I both never had. Having a continuity where you get to know the characters over times does well to make the ending great. It does so well, in-fact, that I was a little sad to have finished this series.",
+            "You know how a large amount of anime take place in high school, and how they're a comedy and/or slice-of-life show? Well this show is when it was good. This is <i>Azumanga Daioh</i>&mdash;a show from a time when high school comedy and slice-of-life was done well.<br><i>Azumanga Daioh</i> is one of those shows to watch if you want to get to know a cast over a time-frame, witness the funny happenings, and come to enjoy their presence. You get to sit back and observe <i>them</i>: their antics, their personalities, their interactions; and you get to sit back and take in the humor that comes from observing them. And the humor... lord almighty it is some <span class='good_shit'></span>; the things that the producers do&mdash;like the bits where they pause really long for a joke, or when they animate movements really slowly to eccentuate just how bizzare something is, and not to mention the sound design to complement it all&mdash;always helps the jokes' deliveries. A show like this is an amazing comedy to me.<br>And this show isn't always a straight-up comedy, either; it is also sometimes more like a laidback slice-of-life. Vacations at Chiyo's summer home, their yearly school festivals, study sessions at Chiyo's house, all of that works together to deliver that social and yet peaceful highschool experience I'm sure you and I both never had. Having a continuity where you get to know the characters over times does well to make the ending great. It does so well, in-fact, that I was a little sad to have finished this series.",
 			"This show also has an amazing <a href='slates/azumanga_daioh_op.mp4' target='_blank'>opening theme</a> and <a href='slates/azumanga_daioh_ed.mp4' target='_blank'>ending theme</a>.<br>Also, did you know that this show is the <a href='clips/azumanga_daioh_mai_waifu.mp4' target='_blank'>origin of the term \"waifu\"</a>?",
             "<i>Azumanga Daioh</i> is available <a target='_blank' href='http://www.sentaifilmworks.com/shows/azumanga-daioh'>through Sentai Filmworks</a>.",
             "From me this show earns an <span class='gold'>A++</span>. It is one of the best&mdash;if not <i>the</i> best&mdash;comedy/slice-of-life shows I have seen. To me, it places even higher than <i><a href='#nichijou'>Nichijou</a></i>."
@@ -149,6 +149,19 @@ module.exports.sections =
         ]
     ],
     */
+	
+	[
+		"Gekkan Shoujo Nozaki-kun",
+		"gekkan_shoujo_nozaki_kun.webm",
+		"https://myanimelist.net/anime/23289",
+		[
+			"If you're quite well-versed in anime, I could probably guess the reaction you'd show at the mere mention of superficial characteristics like <i>romance anime</i>, <i>high-school setting</i>, and many more of that sort. What sort of fool would want to willingly indulge themself in a deluge of inter-character melodrama and/or in a wreck full of teenage-girl-pandering, right?<br>It's a good thing that <i>Gekkan Shoujo Nozaki-kun</i> is in every way unlike any of the works that also would happen to hold these superficial traits.",
+			"<i>Gekkan Shoujo Nozaki-kun</i> at the surface is the story of a romance between Chiyo Sakura and Nozaki-kun. But the show does much more than simply explore their relationship or include tasteless melodrama. While the show revolves mainly around those two, there is just as much exposure on their classmates and friends as there is on them. With the large and unique cast of characters, there's definitely no chance of any boredom or filler to be in the episodes.<br>And I'm not sure if I've ever watched comedy and romance work so well together before. It could be because romance is secondary here, while comedy is without a doubt the primary element of this show. Sure, Chiyo's cute&mdash;and the show has its nice moments of frisky flirts&mdash;but the humor is the better portion. Hell, even in the romantic bits, it always ends with a joke. The jokes are often a subversion in a setup and it works great everytime. It also helps that the sound effects are superb in complementing the jokes. <i>Gekkan Shoujo</i> isn't perfect with its humor&mdash;even I could see places at which they could improve&mdash;but this show is one of the only of it's kind and it's damn good at it.",
+			"Both the <a target='_blank' href='slates/gekkan_shoujo_nozaki_kun_op.webm'>opening</a> and <a target='_blank' href='slates/gekkan_shoujo_nozaki_kun_ed.webm'>ending</a> theme of this show are pretty nice. Nothing amazing, but hey I have the blu-ray and I've gone through the trouble to rip the stuff twice over by now.",
+			"<i>Gekkan Shoujo Nozaki-kun</i> is available to buy at <a target='_blank' href='https://shop.sentaifilmworks.com/products/monthly-girls-nozaki-kun-complete-collection?variant=28016927686'>Sentai Filmworks</a>.",
+			"For being a pretty great show that's unique in comparison to shows similar to it, I give this show an <span class='gold'>A+</span>."
+		]
+	],
     
     [
         "Golden Boy",
@@ -157,8 +170,8 @@ module.exports.sections =
         [
             "Kintaro Oe is the <span class='good_shit'>Golden Boy</span>. Physically and mentally healthy, this young lad strolls around Japan to learn about life.<br>But enough about premises; a premise alone does not make a show great, especially not as great as this.<br><i>Golden Boy</i> is a great show not because of its plot or premise, but for the more important things (to me, with this show in mind) such as its humor and animation. The jokes are all visual, and the faces, the timing, and the voice actor's work, all do well to make each joke funny. The animation on its own is expressive, something unlike anything you'd often see today.",
             "As great as this show is, mind the fact that it's an adult show. With episodes 1, 4, and 5 being the most sexual, each episode's plot revolves around Kintaro ending attracting a lady at the place he's working at.<br>On the note of warnings, I'd prefer going with the Japanese dub of this show. As amazing a job that Dough Smith does when performing Kintaro, all of the other voice actors (particularly the females) don't really express the same personality as what I feel the character's were intended to be portrayed as. (Feel free to call me a weeaboo for this next one, but...) The American voices don't have the same subtleties as the Japanese voices that would communicate a Japanese maiden or a devious, two-faced high school girl.",
-            "<i>Golden Boy</i> is a 6-episode OVA series. Licensed by Discotek Media for North America in 2012, <a target='_blank' href='http://www.discotekmedia.com/golden_boy.htm'>this is the place from which you'd purchase the DVD</a>.",
-            "To me, this show ranks an <span class=\"gold\">A+</span>. To be honest, I would give this show an <span class='gold'>S</span>, but the ecchi kind of places it down here."
+            "<i>Golden Boy</i> has a <span class='gold'>golden</span> <a target='_blank' href='slates/golden_boy_op.mp4'>opening theme</a>.<br><i>Golden Boy</i> is a 6-episode OVA series. Licensed by Discotek Media for North America in 2012, <a target='_blank' href='http://www.discotekmedia.com/golden_boy.htm'>this is the place from which you'd purchase the DVD</a>.",
+            "To me, this show ranks an <span class=\"gold\">A++</span>. To be honest, I would give this show an <span class='gold'>S</span>, but the ecchi kind of places it down here."
         ]
     ],
     
@@ -204,8 +217,8 @@ module.exports.sections =
         "Nichijou.webm",
         "http://myanimelist.net/anime/10165",
         [
-            "While the title suggests a story of simple, everyday school life, the contents are more the opposite. The setting is a strange school where you may see the principal wrestle a deer or a robot's arm hide a rollcake. However there are still normal anecdotes, like making a card castle or taking a test you didn't study for. All of this contributes to make this show half comedy and half slice-of-life<br>If you're into comedy and are into the comfortable, enjoyable slice-of-life feel, <i>Nichijou</i> is worth watching.",
-            "This show is only licensed in Australia by <a target='_blank' href='https://www.madman.com.au/catalogue/view/20937/nichijou-my-ordinary-life-series-collection-subtitled-edition'>Madman</a>, so, unless you're fine with the hassle of imports and such, your best bet to acquire this anime is to torrent it.",
+			"The title of this show, \"nichijou\" translates to \"everyday life\" in English, but anyone would think this is weird because, in fact, a large amount of the show is <i>not</i> part of our everyday life. Most of what happens in the world of <i>Nichijou</i> usually consists of bizzare setups mainly situated to deliver a joke. For example, you may witness a cute, female scientist trapping people within holes in an attempt to catch a cute, female robot, or even a friendly crow stopping by to have a chat with some of the cast, which is made possible via a special little scarf worn the crow that enables it to speak the human tongue. <i>Most</i> of the show is like this. However, many things in their world that actually <i>do</i> happen in our everyday lives, too, such as playing rock-paper-scissors, or kicking yourself a big dust storm of awkwardness as you try to buy yourself a coffee. All of this contributes to make this show a \"half comedy, half slice-of-life\" kind of deal.<br>If you're into comedy and are into the comfortable, enjoyable slice-of-life feel, <i>Nichijou</i> is worth watching.",
+            "This show sports my favorite <a target='_blank' href='slates/nichijou_ed_normal.webm'>ending theme</a> (<a target='_blank' href='slates/nichijou_ed_acapella.webm'>acapella version</a>, <a target='_blank' href='slates/nichijou_ed_bossa_nova.webm'>bossa nova version</a>).<br>This show is only licensed in Australia by <a target='_blank' href='https://www.madman.com.au/catalogue/view/20937/nichijou-my-ordinary-life-series-collection-subtitled-edition'>Madman</a>, so, unless you're fine with the hassle of imports and such, your best bet to acquire this anime is to torrent it.",
             "This show gets a solid <span class='gold'>A++</span> to me. This is very much unlike normal anime&mdash;in fact, the only thing it has related with common anime is that it's in a high-school setting&mdash;and the humor is grade-A. If you're also a media producer, watch this show to see how amazingly it ends the show by having a moment of recap where you're 	remembering everything that happened in the show and then mirroring the beginnning for the finish."
         ]
     ],
@@ -344,20 +357,7 @@ module.exports.sections =
     ],
     */
     
-    /*
-    [
-        "Gekkan Shoujo Nozaki-kun",
-        "10 - Gekkan Shoujo Nozaki-kun.gif",
-        "http://myanimelist.net/anime/23289",
-        [
-            "High school student Chiyo Sakura has a crush on schoolmate Umetarou Nozaki, but when she confesses her love to him, he mistakes her for a fan and gives her an autograph. When she says that she always wants to be with him, he invites her to his house and has her help on some drawings. Chiyo discovers that Nozaki is actually a renowned shoujo manga artist named Sakiko Yumeno. She then agrees to be his assistant in order to get closer to him. As they work on his manga, they encounter other schoolmates who assist them or serve as inspirations for characters in the stories.",
-            "I think this is my favorite romcom of all of them here.",
-            "There's the main thing and some awesome specials."
-        ]
-    ],
-    */
-    
-    /*
+	/*
     [
         "Hitsugi no Chaika",
         "12 - Hitsugi no Chaika.gif",
@@ -484,22 +484,25 @@ module.exports.sections =
     
     /*
         Mikakunin de Shinkoukei
-        
         Flying Witch
-		
 		Sakamoto-san desu ga
-		
-		Osomatsu-san (maybe)
-		
+		Osomatsu-san
 		One Punch Man
-		
 		Tanaka-kun wa Itsumo Kedaruge
-		
-		Kotoura-san
-		
 		Sakurasou no Pet na Kanojo
-		
 		Barakamon
+		Cowboy Bebop
+		Tonari no Kaibutsu-kun
+		FLCL
+        Ore Monogatari
+        Squid Girl
+        Danna ga Nani o Itteiru ka Wakaranai ken
+		Glasslip (alternatively: Tari Tari)
+		Tamako Market
+		Shouwa Genroku Rakugo Shinjuuu
+		Sakamoto-san desuga
+		Tonari no Seki-kun
+		Joshiraku
     */
     
     [
