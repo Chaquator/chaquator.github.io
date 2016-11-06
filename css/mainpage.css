@@ -1,0 +1,50 @@
+body
+{
+	background: #3D4E61;
+	
+	font-family: sans-serif;
+	
+	line-height: 2;
+}
+
+img
+{
+	width: 10em;
+	border-radius: 5em;
+}
+
+a
+{
+	color: #4672A3;
+}
+
+a:visited
+{
+	color: #3D4E61;
+}
+
+span.row
+{
+	display: block;
+	margin: auto;
+	text-align: center;
+	
+	padding: 0.5em;
+}
+
+div#main_nav
+{
+	background: white;
+	padding: 1em;
+	border-radius: 1.5em;
+	
+	position: absolute;
+	
+	top: 50%;
+	left: 50%;
+	
+	margin-right: -50%;
+	margin-bottom: -50%;
+	
+	transform: translate(-50%, -50%);
+}
