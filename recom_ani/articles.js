@@ -15,10 +15,10 @@ module.exports.sections =
         "",
         [
             "Welcome to my personal list of recommended anime!<br>This list will serve as my resource to send to others in the event that they ask me for an anime to recommend.",
-            "My taste is centered more towards comical and funny things, but I am perfectly fine with drama and action, but only really when it's well-mixed with comedy. If you feel that you'd like to give my taste a try, go ahead and keep track of this page so you can check on it later; I do update this page with any new recommendation articles I make. If that's not your taste, however, feel free to click away.",
-            "For every series that makes it on this list, I have watched them at least twice for the sake of having a good opinion and making a good recommendation. Rest assured that none of these shows will be subpar; I wouldn't recommend them otherwise.<br>The text accompanying each entry is not a comprehensive review; it mainly highlights the underlying aesthetics I enjoyed while watching the show for. It's for you to gauge whether or not you would enjoy the series.",
+			"Though I very much favor comedy over other types of anime, I'm 100% fine with other stuff&mdash;drama, romance, action, etc.&mdash;just long as it isn't unnecessarily melodramatic or heavy.<br>If that's definitely not your taste, I recommend you click away. If you do like my taste, however, please do stay and try some anime I recommend!<br>I do update this page with new recommendations.",
+            "For every series that makes it on this list, I have watched them at least twice for the sake of having a good opinion and making a good recommendation. Rest assured that none of these shows will be subpar; I wouldn't recommend them otherwise.<br>The text accompanying each entry is not a comprehensive review; it mainly highlights the underlying aesthetics I enjoyed the show for. It's really for you to gauge whether or not you would enjoy the series depending on how it aligns with your tastes.",
             "My list is seperated into 3 ranks. These ranks group shows based on the uniqueness and how much it elevates anime as a medium.<br><span class=\"gold\">Rank S</span> (for Super) is the rank where the series is unique and amazing on an exceptional level, where it feels completely unlike common anime. If you're looking for something amazing, something that elevates the medium unlike no other class of anime, sample from this rank.<br><span class=\"gold\">Rank A</span> contains shows that are unqiue to a high level, and are still amazing, but they still reflect some level of being like common anime. These shows elevate the medium pretty well while sticking closer to how anime normally is. This is the rank to pick from if you're looking for something to help you get into anime.<br><span class=\"gold\">Rank B</span> consists of the shows that, while being from \"okay\" to <span class=\"good_shit\">\"pretty good\"</span>, reflect many common characteristics of regular anime.<br>",
-            "Click on an entry's image to open the repsective anime's MAL (MyAnimeList) page.<br>Click on the chain-link next to an entry's header to change the url to one that scrolls to the clicked entry (<a href=\"http://www.w3.org/html/wg/drafts/html/master/browsers.html#scroll-to-fragid\" target=\"_blank\">navigting to a fragment identifier</a>).",
+            "Click on an entry's image to open the repsective anime's MAL (MyAnimeList) page.<br>Click on the chain-link next to an entry's header to get a link to the specific article in the url bar (<a href=\"http://www.w3.org/html/wg/drafts/html/master/browsers.html#scroll-to-fragid\" target=\"_blank\">navigting to a fragment identifier</a>).",
             "Without further ado, I hope you enjoy the anime I present in this list."
         ]
     ],
@@ -37,7 +37,7 @@ module.exports.sections =
 		"",
 		"",
 		[
-			"As I said, this page is a WiP.<br>I'll get some Miyazaki films up here soon enough."
+			"As I said, this page is a WiP.<br>I'll get some Miyazaki films or something up here soon enough."
 		]
 	],
     
@@ -217,7 +217,7 @@ module.exports.sections =
         "Nichijou.webm",
         "http://myanimelist.net/anime/10165",
         [
-			"The title of this show, \"nichijou\" translates to \"everyday life\" in English, but anyone would think this is weird because, in fact, a large amount of the show is <i>not</i> part of our everyday life. Most of what happens in the world of <i>Nichijou</i> usually consists of bizzare setups mainly situated to deliver a joke. For example, you may witness a cute, female scientist trapping people within holes in an attempt to catch a cute, female robot; or even a friendly crow stopping by to have a chat with some of the other characters&mdash;which is made possible via a special little scarf worn the crow that enables it to speak the human tongue. <i>Most</i> of the show is like this. However, many things in their world that actually <i>do</i> happen in our everyday lives, too, such as playing rock-paper-scissors, or kicking yourself up a big dust storm of awkwardness as you try to buy yourself a coffee. All of this contributes to give this show a half comedy, half slice-of-life setup.<br>If you're into comedy and are into enjoying a comfortable mood that slice-of-life puts across, <i>Nichijou</i> is worth watching.",
+			"The title of this show, \"nichijou\" translates to \"everyday life\" in English, but anyone would think this is weird because, in fact, a large amount of the show is <i>not</i> part of our everyday life. Most of what happens in the world of <i>Nichijou</i> usually consists of bizzare setups mainly situated to deliver a joke. For example, you may witness a cute, female scientist trapping people within holes in an attempt to catch a cute, female robot; or even a friendly crow stopping by to have a chat with some of the other characters&mdash;which is made possible via a special little scarf worn the crow that enables it to speak the human tongue. <i>Most</i> of the show is like this. However, many things in their world that actually <i>do</i> happen in our everyday lives, too, such as playing rock-paper-scissors, or kicking yourself up a big dust storm of awkwardness as you try to buy yourself a coffee. All of this contributes to give this show a half comedy, half slice-of-life sort of setup.<br>If you're into comedy and enjoy the comfortable feelings that any slice-of-life show conveys, <i>Nichijou</i> is definitely worth watching.",
             "This show sports my favorite <a target='_blank' href='slates/nichijou_ed_normal.webm'>ending theme</a> (<a target='_blank' href='slates/nichijou_ed_acapella.webm'>acapella version</a>, <a target='_blank' href='slates/nichijou_ed_bossa_nova.webm'>bossa nova version</a>).<br>This show is only licensed in Australia by <a target='_blank' href='https://www.madman.com.au/catalogue/view/20937/nichijou-my-ordinary-life-series-collection-subtitled-edition'>Madman</a>, so, unless you're fine with the hassle of imports and such, your best bet to acquire this anime is to torrent it.",
             "This show gets a solid <span class='gold'>A++</span> to me. This is very much unlike normal anime&mdash;in fact, the only thing it has related with common anime is that it's in a high-school setting&mdash;and the humor is grade-A."
         ]
@@ -504,6 +504,7 @@ module.exports.sections =
 		Tonari no Seki-kun
 		Joshiraku
 		Tamako Market
+		3-gatsu no lion
     */
     
     [
