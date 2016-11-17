@@ -84,6 +84,32 @@ module.exports.sections =
             "From me this show earns an <span class='gold'>A++</span>. It is one of the best&mdash;if not <i>the</i> best&mdash;comedy/slice-of-life shows I have seen. To me, it places even higher than <i><a href='#nichijou'>Nichijou</a></i>."
         ]
     ],
+	
+	[
+		"Danshi Koukousei no Nichijou",
+		"danshi_koukousei_no_nichijou.webm",
+		"http://myanimelist.net/anime/11843/",
+		[
+			"<i>Boys</i>, am I right? Hah! How can those teenage youngsters be so <i>terrible</i>, you know?<br><i>Danshi Koukousei no Nichijou</i> may not necessarily provide closure to that question, especially not seriously, but it sports an exemplary use of so many devices for comedy and stands as a pretty good comedy anime for it.",
+			"A young boy's high school life is absolutely precious&hellip;and what better way is there to convey that than with slightly boorish comedy that picks on everyone&mdash;on and off the show&mdash;along with an equally boorish artstyle that portrays everyone with subtle uncanniness showing their individual grotesqueness and flaws? <u>no no no no no no no no no no no no no no no no no</u><br>What I like about the show&mdash;despite the main employed device for comedy being understatement, which isn't my personal favorite&mdash;is that it frequently uses many different devices in just one scene. For this, many scenes are unique not only in setup as expected but in the cominations of devices they use. The show mangaes to always stay fresh this way. Nevertheless, while many scenes are exceptioanlly funny, some scenes are kind of just lacking. Overall, the comedy is definietly not exceptional but nice nonetheless.",
+			"On the back of the blu-ray case for this show, there is a testimonial that reads, \"<i>Daily Lives of High School Boys</i> isn't just another comedy anime, it's <i>the</i> comedy anime.\" &mdash;TAY Kotaku<br>To begin, I can't even find that quote online, much less on Kotaku. Furthermore, while <i>Danshi Koukousei no Nichijou</i> is a great comedy, it is not <i>the</i> comedy anime. In fact, I don't believe any anime will be <i>the</i> comedy anime, for comedy itself comes in many different forms. There are many different devices you can use to convey comedy, and everyone's got their own tastes and preferences as to which devices do better than others. (I personally am a big fan of subversion.)<br><i>Danshi Koukousei no Nichijou</i> is not the best, especially in my opinion, but that's not to say that it isn't great. I feel like it's an <span class='gold'>A+</span>.",
+			"This show also has a <a target='_blank' href='slates/danshi_koukousei_no_nichijou_ed.webm'>unique ending theme</a> with an entertaining animation and an interesting duo on the voice.",
+			"<i>Danshi Koukousei no Nichijou</i> is purchasable from <a target='_blank' href='http://store.nisamerica.com/daily-lives-of-high-school-boys-standard-edition'>NIS America</a>."
+		]
+	],
+	
+	/*
+    [
+        "Danshi Koukousei no Nichijou",
+        "07 - Danshi Koukousei no Nichijou.gif",
+        "http://myanimelist.net/anime/11843",
+        [
+            "Tadakuni, Hidenori, and Yoshitake are students at the all-boys academy, Sanada North High School. This is a tale about just that&mdash;their daily lives as students. Winning the basketball tournament? Finding true love? You won't find any of that here. Whether it's sparking random arguments while hanging out with friends, meeting that one weird co-worker at a part-time job, or even letting imaginations run wild on a windy afternoon, we've all experienced the show's ordinary but true-to-life themes at one point or another.",
+            "I enjoyed the hell out of this. Can't say much more.",
+            "What's there is simply the main season and then some specials which I haven't watched."
+        ]
+    ],
+    */
     
     /*
     [
@@ -107,19 +133,6 @@ module.exports.sections =
             "The anime follows the daily life of an earnest, hardworking office lady named Kaoru and her otaku husband, Hajime, who is totally immersed in a certain huge net bulletin board system.",
             "Some small subjective trivia: This series was the only one from Fall 2014 that I actually thought was good (that I have watched&mdash;I may have missed some from that season, like Shirabako).<br>I'm glad it had my focus the entire season, though, because it was <i>so good</i>. I wish it wasn't 3-5 minutes per episode, but maybe that would've changed how much I awaited it each week.",
             "Currently there is the season that aired fall 2014 and a second season aired in spring 2015."
-        ]
-    ],
-    */
-    
-    /*
-    [
-        "Danshi Koukousei no Nichijou",
-        "07 - Danshi Koukousei no Nichijou.gif",
-        "http://myanimelist.net/anime/11843",
-        [
-            "Tadakuni, Hidenori, and Yoshitake are students at the all-boys academy, Sanada North High School. This is a tale about just that&mdash;their daily lives as students. Winning the basketball tournament? Finding true love? You won't find any of that here. Whether it's sparking random arguments while hanging out with friends, meeting that one weird co-worker at a part-time job, or even letting imaginations run wild on a windy afternoon, we've all experienced the show's ordinary but true-to-life themes at one point or another.",
-            "I enjoyed the hell out of this. Can't say much more.",
-            "What's there is simply the main season and then some specials which I haven't watched."
         ]
     ],
     */
@@ -180,7 +193,8 @@ module.exports.sections =
         "kill_me_baby.webm",
         "http://myanimelist.net/anime/11079",
         [
-            "<i>Kill Me Baby</i> is a comedic anime that adapts from a yonkoma comic. This means that you can expect much out of the comedy, which <i>Kill Me Baby</i> delivers exceptionally. While the show starts off a bit weak (so weak, in fact, that I initially dropped the show), it really gets better the further and further you get. The jokes, while maybe not very high-level and clever, are exectuted so well&mdash;this is due to the voice actors, animation, and sound working all together amazingly&mdash;that I end up laughing harder than I would with any other media. Aside from a few exceptions near the late portions of the series (which are most likely a result of a low budget), the timing of exposure to the parts of a joke are done very well. Sometimes, though, there are times when the joke is sort of ruined whenever they point out the focus of the punchline of a joke, especially if you had already gotten the joke without the pointer.<br>I also wanted to comment on how the soudntrack, especially the <a target='_blank' href='slates/kill_me_baby_ed.mp4'>ending theme</a>, is pretty nice. The BGM parts sport some tracks that are perhaps not worthy of listening to as regular music, but certainly do their jobs as background-music very well.",
+            "<i>Kill Me Baby</i> is a comedic anime that adapts from a yonkoma comic. This means that you can expect much out of the comedy, which <i>Kill Me Baby</i> delivers exceptionally. While the show starts off a bit weak (so weak, in fact, that I initially dropped the show), it really gets better the further and further you get. The jokes, while maybe not very high-level and clever, are exectuted so well&mdash;due to the voice actors, animation, and sound working all together amazingly&mdash;that I end up laughing harder than I would with most other comedies. Aside from a few exceptions near the late portions of the series (which are most likely a result of a low budget), the timing of exposure to the parts of a joke are done very well. Sometimes, though, there are times when the joke is sort of ruined whenever they point out the focus of the punchline of a joke, especially if you had already gotten the joke without the pointer.<br>Nevertheless, this show is a prime example to follow for comedy, and it is simply amazing that such amazing comedy could be conveyed on such a low budget.",
+			"I also wanted to comment on how the soudntrack, especially the <a target='_blank' href='slates/kill_me_baby_ed.mp4'>ending theme</a>, is pretty nice. The BGM parts sport some tracks that are perhaps not worthy of listening to as regular music, but certainly do their jobs as background-music very well.",
             "There's only the 13 episodes and some OVA. Sentai Filmworks has licensed the series in North America, so <a target='_blank' href='http://www.sentaifilmworks.com/store/upc/814131016645'>here is where you can purchase the series (does not include the OVA)</a>.<br>Some trivia: the voice of Arigi in this series, Ai Takabe, was <a target='_blank' href='https://www.animenewsnetwork.com/news/2015-10-27/kill-me-baby-actress-idol-ai-takabe-arrested-for-alleged-drug-possession/.94677'>arrested for drug posession.</a> This completely <i>obliterates</i> any chance of this series haivng a second season.",
             "This show gets an <span class=\"gold\">A+</span> from me. While it still feels like regular anime, and while the budget cuts had detrimented the show by a tiny bit, the humor honestly brings this show up very highly."
         ]
@@ -218,7 +232,7 @@ module.exports.sections =
         "http://myanimelist.net/anime/10165",
         [
 			"The title of this show, \"nichijou\" translates to \"everyday life\" in English, but anyone would think this is weird because, in fact, a large amount of the show is <i>not</i> part of our everyday life. Most of what happens in the world of <i>Nichijou</i> usually consists of bizzare setups mainly situated to deliver a joke. For example, you may witness a cute, female scientist trapping people within holes in an attempt to catch a cute, female robot; or even a friendly crow stopping by to have a chat with some of the other characters&mdash;which is made possible via a special little scarf worn the crow that enables it to speak the human tongue. <i>Most</i> of the show is like this. However, many things in their world that actually <i>do</i> happen in our everyday lives, too, such as playing rock-paper-scissors, or kicking yourself up a big dust storm of awkwardness as you try to buy yourself a coffee. All of this contributes to give this show a half comedy, half slice-of-life sort of setup.<br>If you're into comedy and enjoy the comfortable feelings that any slice-of-life show conveys, <i>Nichijou</i> is definitely worth watching.",
-            "This show sports my favorite <a target='_blank' href='slates/nichijou_ed_normal.webm'>ending theme</a> (<a target='_blank' href='slates/nichijou_ed_acapella.webm'>acapella version</a>, <a target='_blank' href='slates/nichijou_ed_bossa_nova.webm'>bossa nova version</a>).<br>This show is only licensed in Australia by <a target='_blank' href='https://www.madman.com.au/catalogue/view/20937/nichijou-my-ordinary-life-series-collection-subtitled-edition'>Madman</a>, so, unless you're fine with the hassle of imports and such, your best bet to acquire this anime is to torrent it.",
+            "This show sports my favorite <a target='_blank' href='slates/nichijou_ed_normal.webm'>ending theme</a> (<a target='_blank' href='slates/nichijou_ed_acapella.webm'>acapella version</a>, <a target='_blank' href='slates/nichijou_ed_bossa_nova.webm'>bossa nova version</a>).<br>This show is only licensed in Australia by <a target='_blank' href='https://www.madman.com.au/catalogue/view/20937/nichijou-my-ordinary-life-series-collection-subtitled-edition'>Madman</a>, so, unless you're fine with the hassle of imports and such, and if you really don't mind gettting a damn DVD release in this day and age, your best bet to acquire this anime is to torrent it.",
             "This show gets a solid <span class='gold'>A++</span> to me. This is very much unlike normal anime&mdash;in fact, the only thing it has related with common anime is that it's in a high-school setting&mdash;and the humor is grade-A."
         ]
     ],
@@ -317,7 +331,7 @@ module.exports.sections =
         [
             "This section is only seperating anime in terms of how much you might enjoy it based on how much anime you've watched before.<br>These qualities that bring up the need for seperation, however, are not qualities that make anime \"better\" in any way; they are just qualities that one would perhaps not undertsand so well if they were not versed in anime.<br>If anything, this section would perhaps be the lesser group of my favorite anime, because these series, while good, base themselves a little more closely with the cardinal gimmicks of anime.",
             "If you're into anime, and you understand the general antics that come with anime, such as the \"moe\", and anime's other cardinal sins, then this section is right down your alleyway.",
-            "If you haven't watched much anime before, and you don't understand the general environment, then it's perhaps better that you don't choose any of these anime down here as your first to watch."
+            "If you haven't watched much anime before, and you don't understand the general environment, then it's perhaps better that you don't choose any of these anime down here as your first to watch.<br>Please spare yourself a little time before your hopes for this medium get shattered in the subpar environment that is common (and often contemporarily popular) anime."
         ]
     ],
 	
@@ -326,8 +340,8 @@ module.exports.sections =
         "gjbu.webm",
         "http://myanimelist.net/anime/14811/",
         [
-            "<i>GJ-bu</i> is a harem anime sans the ecchi. Kyolo, the main character, is the only male character to appear in this show, where the rest are females. Despite the ways Kyolo is sometimes playfully abused and belittled by the girls, each of the other characters' actions all reflect the fact that they actually like Kyolo. The bottom line is that this show appeals to a male's sense of being appreciated. The point of the show is for the viewer (as long as they're sexually oriented towards females) to \"fall in love\" with the other characters, and fantasize about being in Kyolo's position.",
-			"Currently, <i>GJ-bu</i> is not available for purchase, and can only be <a target='_blank' href='http://www.crunchyroll.com/gj-club'>stramed through crunchyroll</a>.",
+            "<i>GJ-bu</i> is a harem anime sans the ecchi, plain and simple. Kyolo, the main character, is the only male character to appear in this show, where the rest are females. Despite the ways Kyolo is sometimes playfully abused and belittled by the girls, each of the other characters' actions all reflect the fact that they actually like Kyolo. The bottom line is that this show appeals to a male's sense of being appreciated. The point of the show is for the viewer (as long as they're sexually oriented towards females) to \"fall in love\" with the other characters, and fantasize about being in Kyolo's position.",
+			"Currently, <i>GJ-bu</i> is not available for physical purchase, and can only be <a target='_blank' href='http://www.crunchyroll.com/gj-club'>stramed through crunchyroll</a>.",
             "You could call this my most shameless recommendation...<br>I give <i>GJ-bu</i> a <span class='gold'>B</span>. The show very much reflects common anime (being a slice-of-life, taking place in high school, appealing this way to the viewer) but I honestly enjoy my sense of being appreciated being appealed to (take from that what you will in regards to my personality). If you're up for being pandered to, take this show on."
         ]
     ],
@@ -476,9 +490,10 @@ module.exports.sections =
         "yuyushiki.webm",
         "http://myanimelist.net/anime/15911",
         [
-			"As a man, don't you ever kind of wish you were a girl and that you could act on the feminine desires that you repress? Yeah, me too. That's why I watched <i>Yuyushiki</i>, and it's also why I recommend it today: to give those dudes trapped within their social restrictions due to biological sex a show to enjoy.<br><i>Yuyushiki</i> is a comedic show starring a cast of cute, affectionate, and lightly flirtatious girls. These elements being <i>merely present</i>, though, wouldn't make a show great. Take, for example, the show \"Kirino Mosaic\", where all of these criteria are met, but the show itself is lackluster and boring. No, no no. For a show like this, it's the comedy that wins it. From making sweet puns, to the way Yukari acts so airheaded, down to fast-pacedness of the antics that Yuzuko pulls off (sometimes in tandem with Yukari), the comedy in this show absolutely sells it as something I'd recommend. This show may not be the best at conveying a nice day-to-day life or giving off a seasonal vibe like other slice-of-life shows, and I'm not much a fan of the way the show gets close to delivering fanservice in a sexual fashion (not subtly but definietly not tongue-in-cheek) using the girls' bodies, but each episode left me looking forward to watching the next, and it leaves me a little down to be finishing it again for this recommendation. It's a pretty good show.",
+			"As a man, don't you ever kind of wish you were a girl and that you could act on the feminine desires that you repress? Yeah, me too. That's why I watched <i>Yuyushiki</i>, and it's also why I recommend it today: to give those dudes trapped within their social restrictions due to biological sex a show to enjoy.",
+			"<i>Yuyushiki</i> is a comedic show starring a cast of cute, affectionate, and lightly flirtatious girls. These elements being <i>merely present</i>, though, wouldn't make a show great. Take, for example, the show <i>Kirino Mosaic</i>, where all of these criteria are met, but the show itself is lackluster and boring. No no no, for a show like this, it's the comedy that wins it. From making sweet puns, to the way that Yukari acts so airheaded, down to fast-pacedness of the antics that Yuzuko pulls off (sometimes in tandem with Yukari), the comedy in this show absolutely sells it as a good source of entertainment. This show may not be the best at conveying a nice day-to-day life or giving off a seasonal vibe like other slice-of-life shows, and I'm not much a fan of the way the show gets close to delivering fanservice in a sexual fashion (not subtly but definietly not obscenely, just kind of candidly) using the girls' bodies, but the comedy, the flirting, and the affection in each episode left me looking forward to watching the next, and it leaves me a little down to be finishing it again for this recommendation. It's a pretty good show.",
             "Yuyushiki is available through <a target='_blank' href='https://shop.sentaifilmworks.com/products/yuyushiki-complete-collection'>Sentai Filmworks</a> and streamable through <a target='_blank' href='http://www.crunchyroll.com/yuyushiki'>Crunchyroll</a>.",
-			"Such a show does not elevate anime as a medium, but it kills time and gets me laughing. To me, it's a good <span class='gold'>B++</span>"
+			"Such a show does not elevate anime as a medium, but it kills time, gets me laughing, and provides me an outlet to deal with my <i>very</i> slight gender dysphoria. To me, it's a good <span class='gold'>B++</span>"
         ]
     ],
     
@@ -500,6 +515,7 @@ module.exports.sections =
 		Glasslip (alternatively: Tari Tari)
 		Tamako Market
 		Shouwa Genroku Rakugo Shinjuuu
+		The Tatami Galaxy
 		Sakamoto-san desuga
 		Tonari no Seki-kun
 		Joshiraku
