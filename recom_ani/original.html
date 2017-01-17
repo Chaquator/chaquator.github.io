@@ -10,15 +10,8 @@
 		<link rel="stylesheet" type="text/css" href="stylesheet.css">
 		
 		<script type="text/javascript">
-			function reloadImage(imgName)
-			{
-				var tImg = document.getElementById(imgName);
-				new Image().src = tImg.src;
-			}
-			
 			function goodShit()
 			{
-				// good shit
 				var gsc = document.getElementsByClassName("good_shit");
 				var gssa = ["👌", "👀", "👌", "👀", "👌", "👀", "👌", "👀", "👌", "👀", " ", "g", "o", "o", "d", " ", "s", "h", "i", "t", " ", "g", "o", "౦", "d", " ", "s", "H", "i", "t", "👌"];
 				for(var i = 0; i < gsc.length; i++)
@@ -26,7 +19,7 @@
 					var str = gsc[i].innerHTML;
 					if(str != "")
 					{
-						gsc[i].innerHTML = ""
+						gsc[i].innerHTML = "";
 						shakey(gsc[i], str);
 					}
 					else
@@ -41,7 +34,7 @@
 				for(var i = 0; i < strarr.length; i++)
 				{
 					var mem = document.createElement("span");
-					var del = 50; // delay in ms
+					var del = 50;
 					
 					mem.className = "shake shake-constant shake-little gold";
 					mem.style.animationDuration = "3s";
@@ -77,9 +70,27 @@
 				}
 			}
 			
+			function randomIntroImg()
+			{
+				document.getElementById("intro").children[1].children[0].src = "intro_img/" + (1 + Math.floor(Math.random() * 8)) + ".jpg";
+			}
+			
+			function newTabLinks()
+			{
+				var links = document.getElementsByTagName("a");
+				for(var i = 0; i < links.length; i++)
+				{
+					if(links[i].className != "link")
+					{
+						links[i].setAttribute("target", "_blank");
+					}
+				}
+			}
+			
 			function main()
 			{
-				document.getElementById("intro").children[1].children[0].src = "intro_img/" + (1 + Math.floor(Math.random() * 10)) + ".jpg";
+				randomIntroImg();
+				newTabLinks();
 				goodShit();
 			}
 		</script>
@@ -87,6 +98,7 @@
 	
 	<body onload="main()">
 		<h1 id="title-header" class="shake shake-constant shake-slow">Recommended Anime</h1>
+		
 		<div id='endDiv' style='text-align: center; margin-bottom: 0px;'>
 			<h2>end of page</h2>
 			<p>

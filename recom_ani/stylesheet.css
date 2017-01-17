@@ -13,7 +13,7 @@ body
 
 div, span.button
 {
-    border-radius: 1em;
+    /* border-radius: 1em; */
     
     background-color: #333;
     
@@ -24,7 +24,7 @@ div, span.button
 
 span.button
 {
-    border-radius: 1em;
+    /* border-radius: 1em; */
     
     background-color: #282828;
     
@@ -64,7 +64,7 @@ video.entry
     display: block;
     
     background-color: #222;
-    border-radius: 0.5em;
+    /* border-radius: 0.5em; */
 }
 
 h1, h2
