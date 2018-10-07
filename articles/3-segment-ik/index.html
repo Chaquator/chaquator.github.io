@@ -1,0 +1,236 @@
+<meta charset="utf-8">
+
+
+
+**Analytical Approach to Inverse Kinematics with a 3-segment Z-shaped System**
+	chaquator
+	2018-10-7
+
+# Introduction
+
+Inverse Kinematics refers to the process of determining the orientations of joints in a limb system so as to reach a desired end position.
+
+For any system, there are two approaches that can be taken to try to reach a point: iteratively, and analytically.
+
+An iterative approach to inverse kinematics is typically best for a system with many many joints that are hardly constrained (e.g. a robotic squid arm), and involves bit by bit changing the angles of each joint until the tip of the system is optimally close. What is nice about iterative approaches is its extendability to any similar system that has a larger amount of joints.
+
+As someone who has spent 4 years programming in Garry's Mod, also as someone having not known any math above sophomore-level high school algebra and geometry during those 4 years, I've come to not favor processes like this for the amount of calculations and iterations it needs to optimally reach the point; Expression 2 was far too weak of an abomination (being a loosely C-style syntax scripting language that runs on lua, literally a scripting language running within a scripting language) to handle any large amount of calculations in a short time lest people on the server complain about my programs' "ops usage." For this reason as well as my preference for having a defeinite answer, I opt for the analytical approach.
+
+The process of calculating the required orientation for a system analytically is a matter of analyzing the system geometrically. High school level geometry knowledge alone is more than sufficient for anyone to begin to attempt to solve many setups when applied well.
+
+
+
+## 1-Segment IK
+
+With 1-segment inverse kinematics, that is to say literally a single limb, it is a matter of orienting that limb towards the desired end position. Tough luck if it's not perfectly within range, however.
+
+![Image: poor stump trying to touch a given position](1segik.svg)
+
+
+
+## 2-segment IK
+
+With a situation such as 2-segment inverse kinematics, this situation becomes not as easy to calculate (relative to 1-segment, which is not saying much at all), but with the extra limb there is an increased flexibility in the range of space that is accessible by the system.
+
+![Image: A 2-segment system can access areas nearer and farther than a sad stump](2segik01.svg)
+
+The geometric picture that a 2-segment system makes is a simple triangle with lengths $L_1$, $L_2$, and $D$ (D for the distance between the source of the system and its desired position to reach).
+
+![Image: 2-segment system geometrically visualized](2segik02.svg)
+
+With three lengths of a triangle, we can use the [Law of Cosines](http://mathworld.wolfram.com/LawofCosines.html) to solve for any particular angle of the triangle.
+
+$$ m\angle{C} = cos^{-1}(\frac{a^2+b^2-c^2}{2ab}) $$
+
+Plugging values in to find $m\angle{BAC}$ we get:
+
+$$ m\angle{BAC} = cos^{-1}(\frac{L_1^2 + D^2 - L_2^2}{2 \cdot L_1 \cdot D}) $$
+
+This will give us the internal angle of the triangle that we will use to properly orient the system towards our end position. With A as the start of the system and C as the end of the system, the angles we would need to find in this setup are $m\angle{BAC}$ and $m\angle{ABC}$.
+
+The Law of Cosines is perhaps the most handy tool to solving a system. At any point where you find the three lengths of a triangle inside a system, the law of cosines will give you the angles for it.
+
+
+
+# The particular challenge at hand
+
+While a 1-segment and 2-segment system are easy to solve out, any more added joints to the system introduces ambiguity into finding a solution, there is more than just one single solution, and requires arbitrary constraints to simplify the system.
+
+![Image: This 3-segment inverse kinematics system has a range of solutions to reach a particular point.](3segik01.svg)
+
+When I had originally attempted this problem in 2016, my small brain was not very capable, so on deciding the following constraints of letting $L_1 = L_3$, which would allow $L_2$ to directly bisect the line $D$ while concurrently being bisected by $D$, I had come up with an easy to work with model.
+
+![Image: geometric visualization of this simplified form of a Z-shaped system](3segik02.svg)
+
+As can be seen, bisecting $L_2$ and $D$ and also having $L_1 = L_3$ creates two congruent triangles. With the known triangle lengths of $L_1$, $\frac{L_2}{2}$, and $\frac{D}{2}$, the Law of Cosines can be applied to solve for the angles required to orient the system.
+
+
+
+# An Analytic Approach for this System
+
+Recently, I have dived deep into taking another look into this setup, and have created a geometric model with equations that will make it possible to parameterize one aspect of the setup and find a solution for the other remaining aspect required to be found in order to have the lengths of the triangles in the setup.
+
+![Image: geometric visualization of a fully parameterized form of the Z-shaped system](3segik03.svg)
+
+I am using the variable $k$ as a parameter which will represent how far along $L_2$ will an intersection between it and $D$ occur as a percentage from 0 to 1. In this system, $k = 0$ would represent the very tip of $L_2$ intersecting with $D$ making $L_1$ point straight towards the end point (which, as an aside, happens to make a simplified triangle system out of $L_2$, $L_3$, and $(1-x) \cdot D$ --jumping ahead, I think that would make $x = \frac{L_1}{D}$), while $k = 1$ would represent the opposite situation with $L_2$ intersecting $D$ at its very end. The variable $x$ represents the same idea as $k$ of mapping a point along a line from 0 to 1 but with line $D$.
+
+One wonderful property of geometry is that with intersecting straight lines, angles that are opposite each other are congruent. This means that in our system, the opposite angles $A_1$ and $A_2$ that are associated with the intersection of $L_2$ and $D$ for the triangles that are formed with $L_1$ and $L_3$ are congruent, despite the two triangles having different lengths.
+
+For $A_1$, the Law of Cosines shows that:
+
+\begin{equation}
+	cos(A_1) = \frac{(x \cdot D)^2 + (k \cdot L_2)^2 - L_1^2}{2 \cdot (x \cdot D) \cdot (k \cdot L_2)}
+\end{equation}
+
+For $A_2$:
+
+\begin{equation}
+	cos(A_2) = \frac{((1-x) \cdot D)^2 + ((1-k) \cdot L_2)^2 - L_3^2}{2 \cdot ((1-x) \cdot D) \cdot ((1-k) \cdot L_2)}
+\end{equation}
+
+And because $A_1 = A_2$, then $cos(A_1) = cos(A_2)$. Therefore:
+
+\begin{equation}
+	\frac{(x \cdot D)^2 + (k \cdot L_2)^2 - L_1^2}{2 \cdot (x \cdot D) \cdot (k \cdot L_2)} = \frac{((1-x) \cdot D)^2 + ((1-k) \cdot L_2)^2 - L_3^2}{2 \cdot ((1-x) \cdot D) \cdot ((1-k) \cdot L_2)}
+\end{equation}
+
+After rearranging the equation, distributing everything out, subtracting the two equations, simplifying, and finally factoring out how different combinations of $x$ and $k$ affect $L_1$, $L_2$, $L_3$, and $D$, *manually*, the following equality holds:
+
+\begin{equation}
+\begin{aligned}
+	L_1^2 \cdot (-(1-x)(1-k)) + L_2^2 \cdot (-k^3 + k^2 - xk + xk^2) \\
+	+ L_3^2 \cdot (xk) + D^2 \cdot (-x^3 + x^2 - xk + x^2k) = 0
+\end{aligned}
+\end{equation}
+
+Seeing the properties of this system written in this equation, there are many different interestring geometrical tropes that show up, none of which I am smart enough to point out or reason with. However, notice the relative complexity associated with $L_2$ and $D$ compared to with $L_1$ and $L_3$, likely because of the fact that it is the intersection between $L_2$ and $D$ which is parameterized. Anyhow, this equation hopefully should hold true within a reasonable setup.
+
+
+
+# Testing
+
+The aim is to, in having $L_1$, $L_2$, $L_3$, and $k$ be arbitrary variables and $D$ dynamically changing, use that information to solve for an $x$ that satisfies the equation. Solving for an $x$ will allow for us to plug in $k$ and $x$ to the setup to have all the necessary lengths to orient our system correctly.
+
+Having plugged in the conditions that match the earlier simplified setup, where $L_1 = L_3$, $x=\frac{1}{2}$, $k=\frac{1}{2}$ (remember that $L_2$ and $D$ bisected each other; the intersection of $L_2$ and $D$ occur exactly halfway through each), the equation did indeed work out to equal 0, verifying that the earlier simplified model is compatible under this generalized model.
+
+
+
+## Solving for $x$
+
+Let E(x) be equal to our equation:
+
+\begin{equation}
+\begin{aligned}
+	E(x) = L_1^2 \cdot (-(1-x)(1-k)) + L_2^2 \cdot (-k^3 + k^2 - xk + xk^2) \\
+	+ L_3^2 \cdot (xk) + D^2 \cdot (-x^3 + x^2 - xk + x^2k)
+\end{aligned}
+\end{equation}
+
+So that whenever $E(x) = 0$ in a proper setup and $x$ is between 0 and 1, it means we have the proper $x$ to plug in and solve for the angles of the system. Because a simpleton like myself does not know how to find the zeroes of this particular polynomial or anything, I will use basic calculus to find $\frac{dE}{dx}$ and use [Newton's method](https://en.wikipedia.org/wiki/Newton%27s_method) to attempt to approximate a zero.
+
+\begin{equation}
+	E'(x) = L_1^2(-(k-1)) + L_2^2(k-1)k \\
+					+ L_3^2k + D^2(k(2x-1) + (2-3x)x)
+\end{equation}
+
+Newton's method says that with an initial value (in our case we can use $x_i = 0.5$), we can find the x-value of the intersection between the y-axis and a tangent line which touches where our initial guess is using:
+
+\begin{equation}
+	x' = x - \frac{E(x)}{E'(x)}
+\end{equation}
+
+We can repeat this process on the $x$ that we get multiple times to get a more and more accurate answer.
+
+
+
+### Aside: finding an intersection in two 2D line segments
+
+![Image: Line segments $\overline{P_1P_2}$ and $\overline{P_3P_4}$](intersection01.svg)
+
+Provided 2D line segments $\overline{P_1P_2}$ and $\overline{P_3P_4}$ aren't parallel, there exists an intersection between the lines on which each segment lies. That can mean that with $\vec{u} = P_2 - P_1$ and $\vec{v} = P_4 - P_3$, there is a set of combinations of $\vec{u}$ and $\vec{v}$ originating from $P_1$ and $P_3$ respectively that share a common point.
+
+\begin{equation}
+P_1 + (P_2 - P_1) \cdot a = P_3 + (P_4 - P_3) \cdot b
+\end{equation}
+
+There exists a solution of $(a,b)$ (not a geometric point, just set of values) that describe two particular linear combinations of two different vectors from two different points which will result in the same point. Rearranging to seperate constants and variables:
+
+\begin{equation}
+(P_2 - P_1) \cdot a + (P_3 - P_4) \cdot b = P_3 - P_1
+\end{equation}
+
+We can split this equation into two equations for each component in 2D space.
+
+\begin{equation}
+(P_{2x} - P_{1x}) \cdot a + (P_{3x} - P_{4x}) \cdot b = P_{3x} - P_{1x}
+\end{equation}
+
+\begin{equation}
+(P_{2y} - P_{1y}) \cdot a + (P_{3y} - P_{4y}) \cdot b = P_{3y} - P_{1y}
+\end{equation}
+
+This gives us a set of linear equations with which we can solve for $a$ and $b$ using linear algebra.
+
+\begin{equation}
+\begin{bmatrix}
+P_{2x} - P_{1x} & P_{3x} - P_{4x} \\
+P_{2y} - P_{1y} & P_{3y} - P_{4y}
+\end{bmatrix}
+\cdot
+\begin{bmatrix}
+a \\
+b
+\end{bmatrix}
+=
+\begin{bmatrix}
+P_{3x} - P_{1x} \\
+P_{3y} - P_{1y}
+\end{bmatrix}
+\end{equation}
+
+For line segments, as long as $a$ and $b$ are within 0 to 1, then the intersection lies inside the two segments.
+
+What's good for our testing of our equation is the fact that the values $a$ and $b$ are actually the ground truth values for $x$ and $k$ in a setup of 4 arbitrary points.
+
+
+
+## Demo used for testing our equation and method of solving for $x$
+
+I have built a demo in HTML5 Canvas that attempts to verify the equation by constructing known lengths out of 4 arbitrary points with which to plug into our equation and attempt to find an x, which we will check against the actual x which we are capable of finding ([see 4.1.1.](#toc4.1.1)).
+
+[View the demo used for testing here.](demo1/index.html)
+
+
+
+# Conclusion
+
+Our function $E(x)$ and the use of Newton's method to quickly iterate to a very accurate answer work exceptionally. In just three iterations, most typical looking cases set up in the testing demo easily iterated to a very small acceptable delta value.
+
+[Here is a working implementation of the parameterized inverse-kinematics setup to play with.](demo2/index.html)
+
+## Properties of the equation--constraints, extraneous values, limitations
+
+With some k-values that were above 1 or below 0, it was possible to iterate to valid solutions, however there exist some cases where an invalid solution is iterated to, so it's best to avoid any any such k-values.
+
+Any x-values above 1 or below 0, on the other hand, are not particularly iterable to at all, since the initial guess is $x_i = 0.5$, making it very likely that it will find another "solution" to the equation that happens to fall within the range (even if it's not the actual solution), but such a thing is not intended in the first place.
+
+I simply cannot fathom configuring the setup such that the true x-value would fall out the range; it would likely require another setup, one that resembles more a trapezoid, which would be an entirely different approach to our Z-form.
+
+It looks like any configurations where the solution is near the beginning or the end of $D$ take more iterations to reach a sufficient accuracy, although I'm sure its neglibible.
+
+The maximum length for the system is $L_1 + L_2 + L_3$ while the minimum length will depend on which lenghths are larger and smaller. For a typical setup where both $L_1$ and $L_3$ are larger then $L_2$, the minimum length is $L_1 - L_2 + L_3$
+
+
+
+## Special Thanks
+
+to literally no one i did this myself
+
+
+
+
+
+
+<!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style><script src="markdeep.min.js"></script><script src="https://casual-effects.com/markdeep/latest/markdeep.min.js"></script><script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible")</script>
+
+<link rel="stylesheet" href="https://casual-effects.com/markdeep/latest/latex.css?">

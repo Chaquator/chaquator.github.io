@@ -1,0 +1,60 @@
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<script type="text/javascript" src="script.js"></script>
+		
+		<style>
+		
+		*
+		{
+			margin: 0;
+			padding: 0;
+			
+			color: fff;
+			font-family: "Arial";
+		}
+		
+		body
+		{
+			background-color: 444;
+		}
+		
+		span.column
+		{
+			float: left;
+		}
+		
+		input, button
+		{
+			color: 000;
+		}
+		
+		p
+		{
+			margin: 0 0 0.25em 0;
+		}
+		
+		</style>
+	</head>
+
+	<body onload="main();">
+		<span class="column">
+			<canvas id="canvas" width=900 height=900></canvas>
+		</span class="column">
+		<span>
+			<p>
+				L1: <input id="iL1" type="text" placeholder="L1" value="345"><br>
+				L2: <input id="iL2" type="text" placeholder="L3" value="300"><br>
+				L3: <input id="iL3" type="text" placeholder="L2" value="375"><br>
+				k: <input id="iK" type="range" min="0" max="1" step="any" value="0.35"> <span id="sK"></span>
+			</p>
+			<p>
+				D: <span id="sD"></span><br>
+				x guess: <span id="sX"></span><br>
+			</p>
+			<p>
+				<button onclick="toggleOrient();">Toggle orientation</button>
+			</p>
+		</span>
+	</body>
+</html>

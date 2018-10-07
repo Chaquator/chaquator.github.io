@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 1024 1024">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c142 79.160924, 2017/07/13-01:06:39        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-6 {
+        fill: none;
+        stroke: #000;
+        fill-rule: evenodd;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 18.1px;
+      }
+
+      .cls-1, .cls-2 {
+        opacity: 0.5;
+      }
+
+      .cls-2 {
+        stroke-dasharray: 18.1 18.1;
+      }
+
+      .cls-4 {
+        stroke-width: 6px;
+      }
+
+      .cls-5 {
+        font-size: 36px;
+        font-family: "Times New Roman";
+        font-style: italic;
+      }
+
+      .cls-6 {
+        stroke-width: 4px;
+      }
+    </style>
+  </defs>
+  <g>
+    <ellipse cx="312.188" cy="463.063" rx="20.188" ry="20.188"/>
+    <ellipse id="Ellipse_1_copy_2" data-name="Ellipse 1 copy 2" cx="560.063" cy="40.188" rx="20.188" ry="20.188"/>
+    <ellipse id="Ellipse_1_copy" data-name="Ellipse 1 copy" cx="761.813" cy="501.438" rx="20.188" ry="20.188"/>
+    <ellipse id="Ellipse_1_copy_4" data-name="Ellipse 1 copy 4" cx="593.813" cy="961.438" rx="20.188" ry="20.188"/>
+    <circle id="Ellipse_1_copy_3" data-name="Ellipse 1 copy 3" cx="574" cy="484" r="16"/>
+    <path id="x" class="cls-1" d="M563.347,997.334l67.874-68.654m-71.446,0,67.874,68.654"/>
+    <path id="dist" class="cls-2" d="M559.1,39.219l32.667,922.528"/>
+    <path id="lines" class="cls-3" d="M559.1,39.219L311.216,463.967l451.568,34.594L591.765,961.747"/>
+    <path class="cls-4" d="M564,408c-38.036-2.211-72.725,19.466-76,62"/>
+    <path id="Shape_1_copy" data-name="Shape 1 copy" class="cls-4" d="M586,554c42.343,2.716,68.894-20.181,72-60"/>
+  </g>
+  <g id="letters">
+    <text id="L1" class="cls-5" transform="translate(337.251 242.181) scale(2)">L1</text>
+    <text id="L3" class="cls-5" transform="translate(741.252 738.181) scale(2)">L3</text>
+    <text id="k·L2" class="cls-5" transform="translate(342.568 604.671) scale(2)">k·L2</text>
+    <text id="x·D" class="cls-5" transform="translate(751.316 117.317) scale(2)">x·D</text>
+    <text id="_1-x_·D" data-name="(1-x)·D" class="cls-5" transform="translate(129.316 895.316) scale(2)">(1-x)·D</text>
+    <text id="_1-k_·L2" data-name="(1-k)·L2" class="cls-5" transform="translate(670.567 394.671) scale(2)">(1-k)·L2</text>
+    <path class="cls-6" d="M708,106l-90,6"/>
+    <path class="cls-6" d="M730,418l-26,52"/>
+    <path class="cls-6" d="M408,542l20-46"/>
+    <text id="A1" class="cls-5" transform="translate(446.027 404.896) scale(1.608)">A1</text>
+    <text id="A2" class="cls-5" transform="translate(623.991 584.117) scale(1.608)">A2</text>
+    <path class="cls-6" d="M392,866l142-10"/>
+  </g>
+</svg>
