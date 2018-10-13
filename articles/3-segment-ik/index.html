@@ -156,10 +156,10 @@ I have built a demo in HTML5 Canvas that attempts to verify the equation by cons
 Provided 2D line segments $\overline{P_1P_2}$ and $\overline{P_3P_4}$ aren't parallel, there exists an intersection between the lines on which each segment lies. That can mean that with $\vec{u} = P_2 - P_1$ and $\vec{v} = P_4 - P_3$, there is a set of combinations of $\vec{u}$ and $\vec{v}$ originating from $P_1$ and $P_3$ respectively that share a common point.
 
 \begin{equation}
-P_1 + (P_2 - P_1) \cdot a = P_3 + (P_4 - P_3) \cdot b
+P_1 + \vec{u} \cdot a = P_3 + \vec{v} \cdot b
 \end{equation}
 
-There exists a solution of $(a,b)$ (not a geometric point, just set of values) that describe two particular linear combinations of two different vectors from two different points which will result in the same point. Rearranging to seperate constants and variables:
+There exists a solution of $(a,b)$ (not a geometric point, just set of values) that describe two particular linear combinations of two different vectors from two different points which will result in the same point. Substituting and rearranging to seperate constants and variables:
 
 \begin{equation}
 (P_2 - P_1) \cdot a + (P_3 - P_4) \cdot b = P_3 - P_1
