@@ -141,9 +141,15 @@ Newton's method says that with an initial value (in our case we can use $x_i = 0
 
 We can repeat this process on the $x$ that we get multiple times to get a more and more accurate answer.
 
+## Demo used for testing our equation and method of solving for $x$
+
+I have built a demo in HTML5 Canvas that attempts to verify the equation by constructing known lengths out of 4 arbitrary points with which to plug into our equation and attempt to find an x, which we will check against the actual x which we are capable of finding ([see 4.2.1.](#toc4.2.1)).
+
+[View the demo used for testing here.](demo1/index.html)
 
 
-## Aside: finding an intersection in two 2D line segments
+
+### Aside: finding an intersection in two 2D line segments
 
 ![Image: Line segments $\overline{P_1P_2}$ and $\overline{P_3P_4}$](intersection01.svg)
 
@@ -191,14 +197,6 @@ P_{3y} - P_{1y}
 For line segments, as long as $a$ and $b$ are within 0 to 1, then the intersection lies inside the two segments.
 
 What's good for our testing of our equation is the fact that the values $a$ and $b$ are actually the ground truth values for $x$ and $k$ in a setup of 4 arbitrary points.
-
-
-
-## Demo used for testing our equation and method of solving for $x$
-
-I have built a demo in HTML5 Canvas that attempts to verify the equation by constructing known lengths out of 4 arbitrary points with which to plug into our equation and attempt to find an x, which we will check against the actual x which we are capable of finding ([see 4.1.1.](#toc4.1.1)).
-
-[View the demo used for testing here.](demo1/index.html)
 
 
 
