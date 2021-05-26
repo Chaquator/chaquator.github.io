@@ -1,12 +1,12 @@
 body
 {
-	background: #3D4E61;
+	background: #4e475c;
 	
 	font-family: sans-serif;
 	
-	line-height: 2;
+	line-height: 2em;
 	
-	color: 323D4A;
+	color: #4e475c;
 }
 
 h1
@@ -37,6 +37,10 @@ ul li:last-child:after
 	content: none;
 }
 
+a > img {
+    filter: invert(27%) sepia(6%) saturate(1695%) hue-rotate(219deg) brightness(94%) contrast(86%);
+}
+
 img
 {
 	width: 10em;
@@ -45,7 +49,7 @@ img
 
 a
 {
-	color: #4672A3;
+	color: #4e475c;
 }
 
 span.row
@@ -57,11 +61,16 @@ span.row
 	padding: 0.5em;
 }
 
+span.row > a
+{
+    margin: 0.5em;
+}
+
 div#main_nav
 {
 	background: white;
 	padding: 1em;
-	border-radius: 1.5em;
+	border-radius: 5em;
 	
 	position: absolute;
 	
